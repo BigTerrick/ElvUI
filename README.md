@@ -1,3 +1,9 @@
+> **About this fork**
+> This is a fork of [Crumdidlyumshis/ElvUI](https://github.com/Crumdidlyumshis/ElvUI).
+> It contains the bug fixes made by **Apesquatch**, restored from a saved copy after his
+> GitHub account was removed. All credit for those fixes is his. The original code belongs
+> to its respective authors.
+
 [![Game Version](https://img.shields.io/badge/wow-3.3.5-blue.svg)](https://github.com/ElvUI-WotLK)
 [![Discord](https://discordapp.com/api/guilds/259362419372064778/widget.png?style=shield)](https://discord.gg/UXSc7nt)
 [![GitHub Actions](https://github.com/Crumdidlyumshis/ElvUI/workflows/lint/badge.svg?branch=development&event=push)](https://github.com/Crumdidlyumshis/ElvUI/actions?query=workflow%3Alint+branch%3Adevelopment)
