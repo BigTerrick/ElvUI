@@ -15,8 +15,8 @@ P.general = {
 	taintLog = false,
 	stickyFrames = true,
 	loginmessage = true,
-	interruptAnnounce = 'NONE',
-	autoRepair = 'NONE',
+	interruptAnnounce = "NONE",
+	autoRepair = "NONE",
 	autoTrackReputation = false,
 	autoAcceptInvite = false,
 	hideErrorFrame = true,
@@ -25,7 +25,7 @@ P.general = {
 	objectiveFrameHeight = 480,
 	objectiveFrameAutoHide = true,
 	objectiveFrameAutoHideInKeystone = false,
-	bonusObjectivePosition = 'LEFT',
+	bonusObjectivePosition = "LEFT",
 	vehicleSeatIndicatorSize = 128,
 	resurrectSound = false,
 	questRewardMostValueIcon = true,
@@ -39,39 +39,39 @@ P.general = {
 	afkSpin = true,
 	cropIcon = 2,
 	objectiveTracker = true,
-	numberPrefixStyle = 'ENGLISH',
+	numberPrefixStyle = "ENGLISH",
 	tagUpdateRate = 0.2, -- eventTimerThreshold
 	decimalLength = 1,
 	fontSize = 12,
-	font = 'PT Sans Narrow',
-	fontStyle = 'OUTLINE',
+	font = "PT Sans Narrow",
+	fontStyle = "OUTLINE",
 	topPanel = false,
 	bottomPanel = true,
 	bottomPanelSettings = {
 		transparent = true,
 		height = 22,
-		width = 0
+		width = 0,
 	},
 	topPanelSettings = {
 		transparent = true,
 		height = 22,
-		width = 0
+		width = 0,
 	},
 	raidUtility = {
-		showTooltip = true
+		showTooltip = true,
 	},
 	fonts = {
-		cooldown = { enable = true, font = 'Expressway', size = 20, outline = 'SHADOWOUTLINE' },
-		errortext = { enable = true, font = 'Expressway', size = 18, outline = 'SHADOW' },
-		worldzone = { enable = false, font = 'Expressway', size = 26, outline = 'OUTLINE' },
-		worldsubzone = { enable = false, font = 'Expressway', size = 24, outline = 'OUTLINE' },
-		pvpzone = { enable = false, font = 'Expressway', size = 26, outline = 'OUTLINE' },
-		pvpsubzone = { enable = false, font = 'Expressway', size = 24, outline = 'OUTLINE' },
-		objective = { enable = false, font = 'Expressway', size = 14, outline = 'SHADOW' },
-		mailbody = { enable = false, font = 'Expressway', size = 14, outline = 'SHADOW' },
-		questtitle = { enable = false, font = 'Expressway', size = 18, outline = 'NONE' },
-		questtext = { enable = false, font = 'Expressway', size = 14, outline = 'NONE' },
-		questsmall = { enable = false, font = 'Expressway', size = 13, outline = 'NONE' },
+		cooldown = { enable = true, font = "Expressway", size = 20, outline = "SHADOWOUTLINE" },
+		errortext = { enable = true, font = "Expressway", size = 18, outline = "SHADOW" },
+		worldzone = { enable = false, font = "Expressway", size = 26, outline = "OUTLINE" },
+		worldsubzone = { enable = false, font = "Expressway", size = 24, outline = "OUTLINE" },
+		pvpzone = { enable = false, font = "Expressway", size = 26, outline = "OUTLINE" },
+		pvpsubzone = { enable = false, font = "Expressway", size = 24, outline = "OUTLINE" },
+		objective = { enable = false, font = "Expressway", size = 14, outline = "SHADOW" },
+		mailbody = { enable = false, font = "Expressway", size = 14, outline = "SHADOW" },
+		questtitle = { enable = false, font = "Expressway", size = 18, outline = "NONE" },
+		questtext = { enable = false, font = "Expressway", size = 14, outline = "NONE" },
+		questsmall = { enable = false, font = "Expressway", size = 13, outline = "NONE" },
 	},
 	classColors = {
 		HUNTER = { b = 0.44, g = 0.82, r = 0.66 },
@@ -83,7 +83,7 @@ P.general = {
 		WARLOCK = { b = 0.93, g = 0.53, r = 0.52 },
 		DEATHKNIGHT = { b = 0.22, g = 0.11, r = 0.76 },
 		DRUID = { b = 0.03, g = 0.48, r = 1 },
-		PALADIN = { b = 0.72, g = 0.54, r = 0.95 }
+		PALADIN = { b = 0.72, g = 0.54, r = 0.95 },
 	},
 	debuffColors = { -- handle colors of LibDispel
 		none = { r = 0.8, g = 0, b = 0 },
@@ -100,7 +100,7 @@ P.general = {
 	},
 	bordercolor = { r = 0, g = 0, b = 0 }, -- updated in E.Initialize
 	backdropcolor = { r = 0.1, g = 0.1, b = 0.1 },
-	backdropfadecolor = { r = .06, g = .06, b = .06, a = 0.8 },
+	backdropfadecolor = { r = 0.06, g = 0.06, b = 0.06, a = 0.8 },
 	valuecolor = { r = 0.09, g = 0.52, b = 0.82 },
 	itemLevel = {
 		displayCharacterInfo = true,
@@ -110,15 +110,15 @@ P.general = {
 		showEnchants = true,
 		showGems = true,
 		itemLevelRarity = true,
-		itemLevelFont = 'PT Sans Narrow',
+		itemLevelFont = "PT Sans Narrow",
 		itemLevelFontSize = 12,
-		itemLevelFontOutline = 'OUTLINE',
-		totalLevelFont = 'PT Sans Narrow',
+		itemLevelFontOutline = "OUTLINE",
+		totalLevelFont = "PT Sans Narrow",
 		totalLevelFontSize = 18,
-		totalLevelFontOutline = 'OUTLINE',
+		totalLevelFontOutline = "OUTLINE",
 	},
 	customGlow = {
-		style = 'Pixel Glow',
+		style = "Pixel Glow",
 		color = { r = 0.09, g = 0.52, b = 0.82, a = 0.9 },
 		startAnimation = true,
 		useColor = false,
@@ -126,6 +126,7 @@ P.general = {
 		speed = 0.3,
 		lines = 8,
 		size = 1,
+		frameLevel = 8,
 	},
 	minimap = {
 		size = 175,
@@ -170,7 +171,7 @@ P.general = {
 				scale = 1,
 				position = "BOTTOMRIGHT",
 				xOffset = 3,
-				yOffset = -3
+				yOffset = -3,
 			},
 			battlefield = {
 				scale = 1.1,
@@ -183,8 +184,8 @@ P.general = {
 				position = "TOPLEFT",
 				xOffset = 0,
 				yOffset = 0,
-			}
-		}
+			},
+		},
 	},
 	lootRoll = {
 		width = 325,
@@ -197,12 +198,12 @@ P.general = {
 		qualityItemLevel = false,
 		qualityStatusBar = true,
 		qualityStatusBarBackdrop = true,
-		statusBarColor = { r = 0, g = .4, b = 1 },
-		statusBarTexture = 'ElvUI Norm',
-		style = 'halfbar',
-		nameFont = 'Expressway',
+		statusBarColor = { r = 0, g = 0.4, b = 1 },
+		statusBarTexture = "ElvUI Norm",
+		style = "halfbar",
+		nameFont = "Expressway",
 		nameFontSize = 12,
-		nameFontOutline = 'OUTLINE',
+		nameFontOutline = "OUTLINE",
 	},
 	totems = { -- totem tracker
 		growthDirection = "VERTICAL",
@@ -216,22 +217,22 @@ P.general = {
 		itemQuality = true,
 		itemLevel = true,
 		itemLevelThreshold = 1,
-		itemLevelFont = 'Homespun',
+		itemLevelFont = "Homespun",
 		itemLevelFontSize = 10,
-		itemLevelFontOutline = 'MONOCHROMEOUTLINE',
+		itemLevelFontOutline = "MONOCHROMEOUTLINE",
 		itemLevelCustomColorEnable = false,
 		itemLevelCustomColor = { r = 1, g = 1, b = 1 },
-		itemLevelPosition = 'BOTTOMRIGHT',
+		itemLevelPosition = "BOTTOMRIGHT",
 		itemLevelxOffset = 0,
 		itemLevelyOffset = 2,
-		countFont = 'Homespun',
+		countFont = "Homespun",
 		countFontSize = 10,
-		countFontOutline = 'MONOCHROMEOUTLINE',
+		countFontOutline = "MONOCHROMEOUTLINE",
 		countFontColor = { r = 1, g = 1, b = 1 },
-		countPosition = 'BOTTOMRIGHT',
+		countPosition = "BOTTOMRIGHT",
 		countxOffset = 0,
 		countyOffset = 2,
-	}
+	},
 }
 
 --DataBars
@@ -242,24 +243,24 @@ P.databars = {
 	colors = {
 		reputationAlpha = 1,
 		useCustomFactionColors = false,
-		petExperience = { r = 1, g = 1, b = .41, a = .8 },
-		experience = { r = 0, g = .4, b = 1, a = .8 },
-		rested = { r = 1, g = 0, b = 1, a = .4 },
-		quest = { r = 0, g = 1, b = 0, a = .4 },
+		petExperience = { r = 1, g = 1, b = 0.41, a = 0.8 },
+		experience = { r = 0, g = 0.4, b = 1, a = 0.8 },
+		rested = { r = 1, g = 0, b = 1, a = 0.4 },
+		quest = { r = 0, g = 1, b = 0, a = 0.4 },
 		factionColors = {
-			{ r = .8, g = .3, b = .22 },	-- 1
-			{ r = .8, g = .3, b = .22 },	-- 2
-			{ r = .75, g = .27, b = 0 },	-- 3
-			{ r = .9, g = .7, b = 0 },		-- 4
-			{ r = 0, g = .6, b = .1 },		-- 5
-			{ r = 0, g = .6, b = .1 },		-- 6
-			{ r = 0, g = .6, b = .1 },		-- 7
-			{ r = 0, g = .6, b = .1 },		-- 8
-		}
-	}
+			{ r = 0.8, g = 0.3, b = 0.22 }, -- 1
+			{ r = 0.8, g = 0.3, b = 0.22 }, -- 2
+			{ r = 0.75, g = 0.27, b = 0 }, -- 3
+			{ r = 0.9, g = 0.7, b = 0 }, -- 4
+			{ r = 0, g = 0.6, b = 0.1 }, -- 5
+			{ r = 0, g = 0.6, b = 0.1 }, -- 6
+			{ r = 0, g = 0.6, b = 0.1 }, -- 7
+			{ r = 0, g = 0.6, b = 0.1 }, -- 8
+		},
+	},
 }
 
-for _, databar in next, {"experience", "reputation", "threat", "petExperience"} do
+for _, databar in next, { "experience", "reputation", "threat", "petExperience" } do
 	P.databars[databar] = {
 		enable = true,
 		width = 222,
@@ -279,7 +280,7 @@ for _, databar in next, {"experience", "reputation", "threat", "petExperience"} 
 		reverseFill = false,
 		showBubbles = false,
 		frameStrata = "LOW",
-		frameLevel = 1
+		frameLevel = 1,
 	}
 end
 
@@ -335,11 +336,11 @@ P.bags = {
 	itemInfoFont = "Homespun",
 	itemInfoFontSize = 10,
 	itemInfoFontOutline = "MONOCHROMEOUTLINE",
-	itemInfoColor = { r = 0, g = .75, b = .98 },
+	itemInfoColor = { r = 0, g = 0.75, b = 0.98 },
 	countFont = "Homespun",
 	countFontSize = 10,
 	countFontOutline = "MONOCHROMEOUTLINE",
-	countFontColor = {r = 1, g = 1, b = 1},
+	countFontColor = { r = 1, g = 1, b = 1 },
 	countPosition = "BOTTOMRIGHT",
 	countxOffset = 0,
 	countyOffset = 2,
@@ -347,29 +348,29 @@ P.bags = {
 	clearSearchOnClose = false,
 	disableBagSort = false,
 	disableBankSort = false,
-	strata = 'HIGH',
+	strata = "HIGH",
 	qualityColors = true,
 	specialtyColors = true,
 	showBindType = false,
 	transparent = false,
 	colors = {
 		profession = {
-			ammoPouch		= { r = 1.00, g = 0.69, b = 0.41 },
-			enchanting		= { r = 0.72, g = 0.22, b = 0.74 },
-			engineering		= { r = 0.91, g = 0.46, b = 0.18 },
-			gems			= { r = 0.03, g = 0.65, b = 0.75 },
-			herbs			= { r = 0.28, g = 0.74, b = 0.07 },
-			inscription		= { r = 0.32, g = 0.34, b = 0.98 },
-			keyring			= { r = 0.67, g = 0.87, b = 0.37 },
-			leatherworking	= { r = 0.74, g = 0.55, b = 0.20 },
-			mining			= { r = 0.54, g = 0.40, b = 0.04 },
-			quiver			= { r = 1.00, g = 0.69, b = 0.41 },
-			soulBag			= { r = 1.00, g = 0.69, b = 0.41 },
+			ammoPouch = { r = 1.00, g = 0.69, b = 0.41 },
+			enchanting = { r = 0.72, g = 0.22, b = 0.74 },
+			engineering = { r = 0.91, g = 0.46, b = 0.18 },
+			gems = { r = 0.03, g = 0.65, b = 0.75 },
+			herbs = { r = 0.28, g = 0.74, b = 0.07 },
+			inscription = { r = 0.32, g = 0.34, b = 0.98 },
+			keyring = { r = 0.67, g = 0.87, b = 0.37 },
+			leatherworking = { r = 0.74, g = 0.55, b = 0.20 },
+			mining = { r = 0.54, g = 0.40, b = 0.04 },
+			quiver = { r = 1.00, g = 0.69, b = 0.41 },
+			soulBag = { r = 1.00, g = 0.69, b = 0.41 },
 		},
 		items = {
-			questStarter	= { r = 1.00, g = 0.96, b = 0.41 },
-			questItem		= { r = 0.90, g = 0.30, b = 0.30 },
-		}
+			questStarter = { r = 1.00, g = 0.96, b = 0.41 },
+			questItem = { r = 0.90, g = 0.30, b = 0.30 },
+		},
 	},
 	vendorGrays = {
 		enable = false,
@@ -398,7 +399,7 @@ P.bags = {
 	spinner = {
 		enable = true,
 		size = 48,
-		color = { r = 1, g = 0.82, b = 0 }
+		color = { r = 1, g = 0.82, b = 0 },
 	},
 	bagBar = {
 		growthDirection = "VERTICAL",
@@ -414,11 +415,11 @@ P.bags = {
 		font = "PT Sans Narrow",
 		fontOutline = "OUTLINE",
 		fontSize = 12,
-	}
+	},
 }
 
 for i = -3, 12 do
-	local name = "bag"..i
+	local name = "bag" .. i
 	P.bags.shownBags[name] = true
 
 	if i >= 1 then
@@ -434,7 +435,7 @@ P.nameplates = {
 		friendly = false,
 		enemy = false,
 	},
-	plateSize ={
+	plateSize = {
 		friendlyWidth = 150,
 		friendlyHeight = 30,
 		enemyWidth = 150,
@@ -466,53 +467,53 @@ P.nameplates = {
 	alwaysShowTargetHealth = true,
 
 	colors = {
-		glowColor = {r = 1, g = 1, b = 1, a = 1},
-		castColor = {r = 1, g = 0.81, b = 0},
-		castNoInterruptColor = {r = 0.78, g = 0.25, b = 0.25},
-		castInterruptedColor = {r = 0.30, g = 0.30, b = 0.30},
+		glowColor = { r = 1, g = 1, b = 1, a = 1 },
+		castColor = { r = 1, g = 0.81, b = 0 },
+		castNoInterruptColor = { r = 0.78, g = 0.25, b = 0.25 },
+		castInterruptedColor = { r = 0.30, g = 0.30, b = 0.30 },
 		castbarDesaturate = true,
 		reactions = {
-			friendlyPlayer = {r = 0.31, g = 0.45, b = 0.63},
-			good = {r = .29, g = .68, b = .30},
-			neutral = {r = .85, g = .77, b = .36},
-			bad = {r = 0.78, g = 0.25, b = 0.25},
+			friendlyPlayer = { r = 0.31, g = 0.45, b = 0.63 },
+			good = { r = 0.29, g = 0.68, b = 0.30 },
+			neutral = { r = 0.85, g = 0.77, b = 0.36 },
+			bad = { r = 0.78, g = 0.25, b = 0.25 },
 		},
 		threat = {
-			goodColor = {r = 75/255, g = 175/255, b = 76/255},
-			badColor = {r = 0.78, g = 0.25, b = 0.25},
-			goodTransition = {r = 218/255, g = 197/255, b = 92/255},
-			badTransition = {r = 235/255, g = 163/255, b = 40/255},
+			goodColor = { r = 75 / 255, g = 175 / 255, b = 76 / 255 },
+			badColor = { r = 0.78, g = 0.25, b = 0.25 },
+			goodTransition = { r = 218 / 255, g = 197 / 255, b = 92 / 255 },
+			badTransition = { r = 235 / 255, g = 163 / 255, b = 40 / 255 },
 		},
 		comboPoints = {
-			[1] = {r = .69, g = .31, b = .31},
-			[2] = {r = .69, g = .31, b = .31},
-			[3] = {r = .65, g = .63, b = .35},
-			[4] = {r = .65, g = .63, b = .35},
-			[5] = {r = .33, g = .59, b = .33}
-		}
+			[1] = { r = 0.69, g = 0.31, b = 0.31 },
+			[2] = { r = 0.69, g = 0.31, b = 0.31 },
+			[3] = { r = 0.65, g = 0.63, b = 0.35 },
+			[4] = { r = 0.65, g = 0.63, b = 0.35 },
+			[5] = { r = 0.33, g = 0.59, b = 0.33 },
+		},
 	},
 	cooldown = {
 		override = true,
 		reverse = false,
 		threshold = 3,
-		expiringColor = {r = 1, g = 0, b = 0},
-		secondsColor = {r = 1, g = 1, b = 1},
-		minutesColor = {r = 1, g = 1, b = 1},
-		hoursColor = {r = 1, g = 1, b = 1},
-		daysColor = {r = 1, g = 1, b = 1},
-		expireIndicator = {r = 1, g = 1, b = 1},
-		secondsIndicator = {r = 1, g = 1, b = 1},
-		minutesIndicator = {r = 1, g = 1, b = 1},
-		hoursIndicator = {r = 1, g = 1, b = 1},
-		daysIndicator = {r = 1, g = 1, b = 1},
-		hhmmColorIndicator = {r = 1, g = 1, b = 1},
-		mmssColorIndicator = {r = 1, g = 1, b = 1},
+		expiringColor = { r = 1, g = 0, b = 0 },
+		secondsColor = { r = 1, g = 1, b = 1 },
+		minutesColor = { r = 1, g = 1, b = 1 },
+		hoursColor = { r = 1, g = 1, b = 1 },
+		daysColor = { r = 1, g = 1, b = 1 },
+		expireIndicator = { r = 1, g = 1, b = 1 },
+		secondsIndicator = { r = 1, g = 1, b = 1 },
+		minutesIndicator = { r = 1, g = 1, b = 1 },
+		hoursIndicator = { r = 1, g = 1, b = 1 },
+		daysIndicator = { r = 1, g = 1, b = 1 },
+		hhmmColorIndicator = { r = 1, g = 1, b = 1 },
+		mmssColorIndicator = { r = 1, g = 1, b = 1 },
 
 		checkSeconds = false,
 		targetAuraDuration = 3600,
 		modRateColor = { r = 0.6, g = 1, b = 0.4 },
-		hhmmColor = {r = 0.43, g = 0.43, b = 0.43},
-		mmssColor = {r = 0.56, g = 0.56, b = 0.56},
+		hhmmColor = { r = 0.43, g = 0.43, b = 0.43 },
+		mmssColor = { r = 0.56, g = 0.56, b = 0.56 },
 		hhmmThreshold = -1,
 		mmssThreshold = -1,
 
@@ -520,20 +521,21 @@ P.nameplates = {
 			enable = false,
 			font = "PT Sans Narrow",
 			fontOutline = "OUTLINE",
-			fontSize = 18
-		}
+			fontSize = 18,
+		},
 	},
 	fadeIn = true,
 	threat = {
+		useScale = false,
 		goodScale = 0.8,
 		badScale = 1.2,
-		useThreatColor = true
+		useThreatColor = true,
 	},
 	filters = {
-		ElvUI_Boss = {triggers = {enable = false}},
-		ElvUI_Target = {triggers = {enable = false}},
-		ElvUI_NonTarget = {triggers = {enable = true}},
-		ElvUI_Totem = {triggers = {enable = true}}
+		ElvUI_Boss = { triggers = { enable = false } },
+		ElvUI_Target = { triggers = { enable = false } },
+		ElvUI_NonTarget = { triggers = { enable = false } },
+		ElvUI_Totem = { triggers = { enable = true } },
 	},
 	visibility = {
 		showAll = true,
@@ -567,7 +569,7 @@ P.nameplates = {
 				height = 4,
 				spacing = 5,
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 		},
 		FRIENDLY_PLAYER = {
@@ -599,7 +601,7 @@ P.nameplates = {
 				yOffset = 2,
 				font = "PT Sans Narrow",
 				fontOutline = "OUTLINE",
-				fontSize = 11
+				fontSize = 11,
 			},
 			level = {
 				enable = false,
@@ -609,7 +611,7 @@ P.nameplates = {
 				yOffset = 2,
 				font = "PT Sans Narrow",
 				fontOutline = "OUTLINE",
-				fontSize = 11
+				fontSize = 11,
 			},
 			castbar = {
 				enable = true,
@@ -630,7 +632,7 @@ P.nameplates = {
 				yOffset = -2,
 				font = "PT Sans Narrow",
 				fontSize = 11,
-				fontOutline = "OUTLINE"
+				fontOutline = "OUTLINE",
 			},
 			buffs = {
 				enable = true,
@@ -661,7 +663,7 @@ P.nameplates = {
 				filters = {
 					minDuration = 0,
 					maxDuration = 0,
-					priority = "Blacklist,blockNoDuration,Personal,TurtleBuffs" --NamePlate FriendlyPlayer Buffs
+					priority = "Blacklist,blockNoDuration,Personal,TurtleBuffs", --NamePlate FriendlyPlayer Buffs
 				},
 			},
 			debuffs = {
@@ -694,15 +696,15 @@ P.nameplates = {
 				filters = {
 					minDuration = 0,
 					maxDuration = 0,
-					priority = "Blacklist,blockNoDuration,Personal,CCDebuffs" --NamePlate FriendlyPlayer Debuffs
+					priority = "Blacklist,blockNoDuration,Personal,CCDebuffs", --NamePlate FriendlyPlayer Debuffs
 				},
 			},
 			raidTargetIndicator = {
 				size = 24,
 				position = "LEFT",
 				xOffset = -4,
-				yOffset = 0
-			}
+				yOffset = 0,
+			},
 		},
 		ENEMY_PLAYER = {
 			markHealers = true,
@@ -720,9 +722,9 @@ P.nameplates = {
 					yOffset = 0,
 					font = "PT Sans Narrow",
 					fontOutline = "OUTLINE",
-					fontSize = 11
+					fontSize = 11,
 				},
-				useClassColor = true
+				useClassColor = true,
 			},
 			name = {
 				enable = true,
@@ -734,7 +736,7 @@ P.nameplates = {
 				yOffset = 2,
 				font = "PT Sans Narrow",
 				fontOutline = "OUTLINE",
-				fontSize = 11
+				fontSize = 11,
 			},
 			level = {
 				enable = true,
@@ -744,7 +746,7 @@ P.nameplates = {
 				yOffset = 2,
 				font = "PT Sans Narrow",
 				fontOutline = "OUTLINE",
-				fontSize = 11
+				fontSize = 11,
 			},
 			castbar = {
 				enable = true,
@@ -765,7 +767,7 @@ P.nameplates = {
 				yOffset = -2,
 				font = "PT Sans Narrow",
 				fontSize = 11,
-				fontOutline = "OUTLINE"
+				fontOutline = "OUTLINE",
 			},
 			comboPoints = {
 				enable = true,
@@ -773,7 +775,7 @@ P.nameplates = {
 				height = 4,
 				spacing = 5,
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			buffs = {
 				enable = true,
@@ -805,7 +807,7 @@ P.nameplates = {
 				filters = {
 					minDuration = 0,
 					maxDuration = 300,
-					priority = "Blacklist,PlayerBuffs,TurtleBuffs" --NamePlate EnemyPlayer Buffs
+					priority = "Blacklist,PlayerBuffs,TurtleBuffs", --NamePlate EnemyPlayer Buffs
 				},
 			},
 			debuffs = {
@@ -838,14 +840,14 @@ P.nameplates = {
 				filters = {
 					minDuration = 0,
 					maxDuration = 0,
-					priority = "Blacklist,blockNoDuration,Personal,CCDebuffs,RaidDebuffs" --NamePlate EnemyPlayer Debuffs
+					priority = "Blacklist,blockNoDuration,Personal,CCDebuffs,RaidDebuffs", --NamePlate EnemyPlayer Debuffs
 				},
 			},
 			raidTargetIndicator = {
 				size = 24,
 				position = "LEFT",
 				xOffset = -4,
-				yOffset = 0
+				yOffset = 0,
 			},
 		},
 		FRIENDLY_NPC = {
@@ -863,8 +865,8 @@ P.nameplates = {
 					yOffset = 0,
 					font = "PT Sans Narrow",
 					fontOutline = "OUTLINE",
-					fontSize = 11
-				}
+					fontSize = 11,
+				},
 			},
 			name = {
 				enable = true,
@@ -875,7 +877,7 @@ P.nameplates = {
 				yOffset = 2,
 				font = "PT Sans Narrow",
 				fontOutline = "OUTLINE",
-				fontSize = 11
+				fontSize = 11,
 			},
 			level = {
 				enable = true,
@@ -885,7 +887,7 @@ P.nameplates = {
 				yOffset = 2,
 				font = "PT Sans Narrow",
 				fontOutline = "OUTLINE",
-				fontSize = 11
+				fontSize = 11,
 			},
 			castbar = {
 				enable = true,
@@ -906,7 +908,7 @@ P.nameplates = {
 				yOffset = -2,
 				font = "PT Sans Narrow",
 				fontSize = 11,
-				fontOutline = "OUTLINE"
+				fontOutline = "OUTLINE",
 			},
 			buffs = {
 				enable = true,
@@ -938,7 +940,7 @@ P.nameplates = {
 				filters = {
 					minDuration = 0,
 					maxDuration = 0,
-					priority = "Blacklist,blockNoDuration,Personal,TurtleBuffs" --NamePlate FriendlyNPC Buffs
+					priority = "Blacklist,blockNoDuration,Personal,TurtleBuffs", --NamePlate FriendlyNPC Buffs
 				},
 			},
 			debuffs = {
@@ -971,7 +973,7 @@ P.nameplates = {
 				filters = {
 					minDuration = 0,
 					maxDuration = 0,
-					priority = "Blacklist,CCDebuffs,RaidDebuffs" --NamePlate FriendlyNPC Debuffs
+					priority = "Blacklist,CCDebuffs,RaidDebuffs", --NamePlate FriendlyNPC Debuffs
 				},
 			},
 			eliteIcon = {
@@ -979,13 +981,13 @@ P.nameplates = {
 				size = 15,
 				position = "RIGHT",
 				xOffset = 10,
-				yOffset = 0
+				yOffset = 0,
 			},
 			raidTargetIndicator = {
 				size = 24,
 				position = "LEFT",
 				xOffset = -4,
-				yOffset = 0
+				yOffset = 0,
 			},
 			iconFrame = {
 				enable = false,
@@ -993,8 +995,8 @@ P.nameplates = {
 				parent = "Nameplate",
 				position = "CENTER",
 				xOffset = 0,
-				yOffset = 42
-			}
+				yOffset = 42,
+			},
 		},
 		ENEMY_NPC = {
 			health = {
@@ -1011,8 +1013,8 @@ P.nameplates = {
 					yOffset = 0,
 					font = "PT Sans Narrow",
 					fontOutline = "OUTLINE",
-					fontSize = 11
-				}
+					fontSize = 11,
+				},
 			},
 			name = {
 				enable = true,
@@ -1023,7 +1025,7 @@ P.nameplates = {
 				yOffset = 2,
 				font = "PT Sans Narrow",
 				fontOutline = "OUTLINE",
-				fontSize = 11
+				fontSize = 11,
 			},
 			level = {
 				enable = true,
@@ -1033,7 +1035,7 @@ P.nameplates = {
 				yOffset = 2,
 				font = "PT Sans Narrow",
 				fontOutline = "OUTLINE",
-				fontSize = 11
+				fontSize = 11,
 			},
 			castbar = {
 				enable = true,
@@ -1054,7 +1056,7 @@ P.nameplates = {
 				yOffset = -2,
 				font = "PT Sans Narrow",
 				fontSize = 11,
-				fontOutline = "OUTLINE"
+				fontOutline = "OUTLINE",
 			},
 			comboPoints = {
 				enable = true,
@@ -1062,7 +1064,7 @@ P.nameplates = {
 				height = 4,
 				spacing = 5,
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			buffs = {
 				enable = true,
@@ -1093,7 +1095,7 @@ P.nameplates = {
 				filters = {
 					minDuration = 0,
 					maxDuration = 0,
-					priority = "Blacklist,blockNoDuration,PlayerBuffs,TurtleBuffs" --NamePlate EnemyNPC Buffs
+					priority = "Blacklist,blockNoDuration,PlayerBuffs,TurtleBuffs", --NamePlate EnemyNPC Buffs
 				},
 			},
 			debuffs = {
@@ -1125,7 +1127,7 @@ P.nameplates = {
 				filters = {
 					minDuration = 0,
 					maxDuration = 0,
-					priority = "Blacklist,Personal,CCDebuffs" --NamePlate EnemyNPC Debuffs
+					priority = "Blacklist,Personal,CCDebuffs", --NamePlate EnemyNPC Debuffs
 				},
 			},
 			eliteIcon = {
@@ -1133,13 +1135,13 @@ P.nameplates = {
 				size = 15,
 				position = "RIGHT",
 				xOffset = 10,
-				yOffset = 0
+				yOffset = 0,
 			},
 			raidTargetIndicator = {
 				size = 24,
 				position = "LEFT",
 				xOffset = -4,
-				yOffset = 0
+				yOffset = 0,
 			},
 			iconFrame = {
 				enable = false,
@@ -1147,33 +1149,33 @@ P.nameplates = {
 				parent = "Nameplate",
 				position = "CENTER",
 				xOffset = 0,
-				yOffset = 42
-			}
-		}
-	}
+				yOffset = 42,
+			},
+		},
+	},
 }
 
 local TopAuras = {
-	barColor = { r = 0, g = .8, b = 0 },
+	barColor = { r = 0, g = 0.8, b = 0 },
 	barColorGradient = false,
 	barSize = 2,
 	barNoDuration = true,
-	barPosition = 'BOTTOM',
+	barPosition = "BOTTOM",
 	barShow = false,
 	barSpacing = 2,
-	barTexture = 'ElvUI Norm',
-	countFont = 'Homespun',
-	countFontOutline = 'MONOCHROMEOUTLINE',
+	barTexture = "ElvUI Norm",
+	countFont = "Homespun",
+	countFontOutline = "MONOCHROMEOUTLINE",
 	countFontSize = 10,
 	countXOffset = 0,
 	countYOffset = 0,
-	timeFont = 'Homespun',
-	timeFontOutline = 'MONOCHROMEOUTLINE',
+	timeFont = "Homespun",
+	timeFontOutline = "MONOCHROMEOUTLINE",
 	timeFontSize = 10,
 	timeXOffset = 0,
 	timeYOffset = 0,
 	fadeThreshold = 6,
-	growthDirection = 'LEFT_DOWN',
+	growthDirection = "LEFT_DOWN",
 	horizontalSpacing = 6,
 	maxWraps = 3,
 	seperateOwn = 1,
@@ -1181,8 +1183,8 @@ local TopAuras = {
 	size = 32,
 	height = 32,
 	keepSizeRatio = true,
-	sortDir = '-',
-	sortMethod = 'TIME',
+	sortDir = "-",
+	sortMethod = "TIME",
 	verticalSpacing = 16,
 	wrapAfter = 12,
 	smoothbars = false,
@@ -1239,14 +1241,14 @@ P.chat = {
 		CHANNEL = true,
 		SAY = true,
 		YELL = true,
-		EMOTE = true
+		EMOTE = true,
 	},
 	historySize = 100,
 	editboxHistorySize = 20,
 	tabSelector = "ARROW1",
 	tabSelectedTextEnabled = true,
 	tabSelectedTextColor = { r = 1, g = 1, b = 1 },
-	tabSelectorColor = { r = .3, g = 1, b = .3 },
+	tabSelectorColor = { r = 0.3, g = 1, b = 0.3 },
 	timeStampFormat = "NONE",
 	timeStampLocalTime = false,
 	keywords = "ElvUI",
@@ -1273,19 +1275,19 @@ P.chat = {
 	enableCombatRepeat = true,
 	numAllowedCombatRepeat = 5,
 	useCustomTimeColor = true,
-	customTimeColor = {r = 0.7, g = 0.7, b = 0.7},
+	customTimeColor = { r = 0.7, g = 0.7, b = 0.7 },
 	numScrollMessages = 3,
 	socialQueueMessages = false,
 	tabFont = "PT Sans Narrow",
 	tabFontSize = 12,
 	tabFontOutline = "SHADOW",
 	copyChatLines = false,
-	panelColor = {r = .06, g = .06, b = .06, a = 0.8},
+	panelColor = { r = 0.06, g = 0.06, b = 0.06, a = 0.8 },
 	pinVoiceButtons = true,
 	hideVoiceButtons = false,
 	desaturateVoiceIcons = true,
 	mouseoverVoicePanel = false,
-	voicePanelAlpha = 0.25
+	voicePanelAlpha = 0.25,
 }
 
 --Datatexts
@@ -1303,7 +1305,7 @@ P.datatexts = {
 			panelTransparency = false,
 			"ElvUI",
 			"Durability",
-			"Mail"
+			"Mail",
 		},
 		RightChatDataPanel = {
 			enable = true,
@@ -1313,7 +1315,7 @@ P.datatexts = {
 			panelTransparency = false,
 			"System",
 			"Time",
-			"Gold"
+			"Gold",
 		},
 		MinimapPanel = {
 			enable = true,
@@ -1323,8 +1325,8 @@ P.datatexts = {
 			panelTransparency = false,
 			numPoints = 2,
 			"Guild",
-			"Friends"
-		}
+			"Friends",
+		},
 	},
 	battlePanel = {
 		LeftChatDataPanel = {
@@ -1337,7 +1339,7 @@ P.datatexts = {
 			"PvP: Heals",
 			"PvP: Honor Gained",
 		},
-		MinimapPanel = {}
+		MinimapPanel = {},
 	},
 	noCombatClick = false,
 	noCombatHover = false,
@@ -1371,7 +1373,7 @@ P.tooltip = {
 	fadeOut = true,
 	itemCount = {
 		bags = true,
-		stack = false
+		stack = false,
 	},
 	visibility = {
 		bags = "SHOW",
@@ -1389,15 +1391,15 @@ P.tooltip = {
 	},
 	useCustomFactionColors = false,
 	factionColors = {
-		{r = 0.8, g = 0.3, b = 0.22},
-		{r = 0.8, g = 0.3, b = 0.22},
-		{r = 0.75, g = 0.27, b = 0},
-		{r = 0.9, g = 0.7, b = 0},
-		{r = 0, g = 0.6, b = 0.1},
-		{r = 0, g = 0.6, b = 0.1},
-		{r = 0, g = 0.6, b = 0.1},
-		{r = 0, g = 0.6, b = 0.1},
-	}
+		{ r = 0.8, g = 0.3, b = 0.22 },
+		{ r = 0.8, g = 0.3, b = 0.22 },
+		{ r = 0.75, g = 0.27, b = 0 },
+		{ r = 0.9, g = 0.7, b = 0 },
+		{ r = 0, g = 0.6, b = 0.1 },
+		{ r = 0, g = 0.6, b = 0.1 },
+		{ r = 0, g = 0.6, b = 0.1 },
+		{ r = 0, g = 0.6, b = 0.1 },
+	},
 }
 
 --UnitFrame
@@ -1416,24 +1418,24 @@ P.unitframe = {
 		override = true,
 		reverse = false,
 		threshold = 3,
-		expiringColor = {r = 1, g = 0, b = 0},
-		secondsColor = {r = 1, g = 1, b = 1},
-		minutesColor = {r = 1, g = 1, b = 1},
-		hoursColor = {r = 1, g = 1, b = 1},
-		daysColor = {r = 1, g = 1, b = 1},
-		expireIndicator = {r = 1, g = 1, b = 1},
-		secondsIndicator = {r = 1, g = 1, b = 1},
-		minutesIndicator = {r = 1, g = 1, b = 1},
-		hoursIndicator = {r = 1, g = 1, b = 1},
-		daysIndicator = {r = 1, g = 1, b = 1},
-		hhmmColorIndicator = {r = 1, g = 1, b = 1},
-		mmssColorIndicator = {r = 1, g = 1, b = 1},
+		expiringColor = { r = 1, g = 0, b = 0 },
+		secondsColor = { r = 1, g = 1, b = 1 },
+		minutesColor = { r = 1, g = 1, b = 1 },
+		hoursColor = { r = 1, g = 1, b = 1 },
+		daysColor = { r = 1, g = 1, b = 1 },
+		expireIndicator = { r = 1, g = 1, b = 1 },
+		secondsIndicator = { r = 1, g = 1, b = 1 },
+		minutesIndicator = { r = 1, g = 1, b = 1 },
+		hoursIndicator = { r = 1, g = 1, b = 1 },
+		daysIndicator = { r = 1, g = 1, b = 1 },
+		hhmmColorIndicator = { r = 1, g = 1, b = 1 },
+		mmssColorIndicator = { r = 1, g = 1, b = 1 },
 
 		checkSeconds = false,
 		targetAuraDuration = 3600,
 		modRateColor = { r = 0.6, g = 1, b = 0.4 },
-		hhmmColor = {r = 0.43, g = 0.43, b = 0.43},
-		mmssColor = {r = 0.56, g = 0.56, b = 0.56},
+		hhmmColor = { r = 0.43, g = 0.43, b = 0.43 },
+		mmssColor = { r = 0.56, g = 0.56, b = 0.56 },
 		hhmmThreshold = -1,
 		mmssThreshold = -1,
 
@@ -1441,11 +1443,11 @@ P.unitframe = {
 			enable = false,
 			font = "PT Sans Narrow",
 			fontOutline = "OUTLINE",
-			fontSize = 18
-		}
+			fontSize = 18,
+		},
 	},
 	colors = {
-		borderColor = {r = 0, g = 0, b = 0},
+		borderColor = { r = 0, g = 0, b = 0 },
 		healthclass = false,
 		forcehealthreaction = false,
 		powerclass = false,
@@ -1460,7 +1462,7 @@ P.unitframe = {
 		healthMultiplier = 0,
 		auraBarByType = true,
 		auraBarTurtle = true,
-		auraBarTurtleColor = {r = 0.56, g = 0.39, b = 0.61},
+		auraBarTurtleColor = { r = 0.56, g = 0.39, b = 0.61 },
 		transparentHealth = false,
 		transparentPower = false,
 		transparentCastbar = false,
@@ -1470,33 +1472,33 @@ P.unitframe = {
 		invertAurabars = false,
 		invertPower = false,
 		invertClasspower = false,
-		castColor = {r = 0.31, g = 0.31, b = 0.31},
-		castNoInterrupt = {r = 0.78, g = 0.25, b = 0.25},
-		castInterruptedColor = {r = 0.30, g = 0.30, b = 0.30},
+		castColor = { r = 0.31, g = 0.31, b = 0.31 },
+		castNoInterrupt = { r = 0.78, g = 0.25, b = 0.25 },
+		castInterruptedColor = { r = 0.30, g = 0.30, b = 0.30 },
 		castClassColor = false,
 		castReactionColor = false,
-		health = {r = 0.31, g = 0.31, b = 0.31},
-		health_backdrop = {r = 0.8, g = 0.01, b = 0.01},
-		health_backdrop_dead = {r = 0.8, g = 0.01, b = 0.01},
-		castbar_backdrop = {r = 0.5, g = 0.5, b = 0.5},
-		classpower_backdrop = {r = 0.5, g = 0.5, b = 0.5},
-		aurabar_backdrop = {r = 0.5, g = 0.5, b = 0.5},
-		power_backdrop = {r = 0.5, g = 0.5, b = 0.5},
-		tapped = {r = 0.55, g = 0.57, b = 0.61},
-		disconnected = {r = 0.84, g = 0.75, b = 0.65},
-		auraBarBuff = {r = 0.31, g = 0.31, b = 0.31},
-		auraBarDebuff = {r = 0.8, g = 0.1, b = 0.1},
+		health = { r = 0.31, g = 0.31, b = 0.31 },
+		health_backdrop = { r = 0.8, g = 0.01, b = 0.01 },
+		health_backdrop_dead = { r = 0.8, g = 0.01, b = 0.01 },
+		castbar_backdrop = { r = 0.5, g = 0.5, b = 0.5 },
+		classpower_backdrop = { r = 0.5, g = 0.5, b = 0.5 },
+		aurabar_backdrop = { r = 0.5, g = 0.5, b = 0.5 },
+		power_backdrop = { r = 0.5, g = 0.5, b = 0.5 },
+		tapped = { r = 0.55, g = 0.57, b = 0.61 },
+		disconnected = { r = 0.84, g = 0.75, b = 0.65 },
+		auraBarBuff = { r = 0.31, g = 0.31, b = 0.31 },
+		auraBarDebuff = { r = 0.8, g = 0.1, b = 0.1 },
 		power = {
-			MANA = {r = 0.31, g = 0.45, b = 0.63},
-			RAGE = {r = 0.78, g = 0.25, b = 0.25},
-			FOCUS = {r = 0.71, g = 0.43, b = 0.27},
-			ENERGY = {r = 0.65, g = 0.63, b = 0.35},
-			RUNIC_POWER = {r = 0, g = 0.82, b = 1}
+			MANA = { r = 0.31, g = 0.45, b = 0.63 },
+			RAGE = { r = 0.78, g = 0.25, b = 0.25 },
+			FOCUS = { r = 0.71, g = 0.43, b = 0.27 },
+			ENERGY = { r = 0.65, g = 0.63, b = 0.35 },
+			RUNIC_POWER = { r = 0, g = 0.82, b = 1 },
 		},
 		happiness = {
-			{r = .69, g = .31, b = .31},
-			{r = .65, g = .63, b = .35},
-			{r = .33, g = .59, b = .33},
+			{ r = 0.69, g = 0.31, b = 0.31 },
+			{ r = 0.65, g = 0.63, b = 0.35 },
+			{ r = 0.33, g = 0.59, b = 0.33 },
 		},
 		reaction = {
 			BAD = { r = 0.78, g = 0.25, b = 0.25 },
@@ -1504,72 +1506,72 @@ P.unitframe = {
 			GOOD = { r = 0.29, g = 0.69, b = 0.30 },
 		},
 		threat = {
-			[ 0] = {r = 0.5, g = 0.5, b = 0.5}, -- low
-			[ 1] = {r = 1.0, g = 1.0, b = 0.5}, -- overnuking
-			[ 2] = {r = 1.0, g = 0.5, b = 0.0}, -- losing threat
-			[ 3] = {r = 1.0, g = 0.2, b = 0.2}, -- tanking securely
+			[0] = { r = 0.5, g = 0.5, b = 0.5 }, -- low
+			[1] = { r = 1.0, g = 1.0, b = 0.5 }, -- overnuking
+			[2] = { r = 1.0, g = 0.5, b = 0.0 }, -- losing threat
+			[3] = { r = 1.0, g = 0.2, b = 0.2 }, -- tanking securely
 		},
 		selection = {
-			[ 0] = {r = 1.00, g = 0.18, b = 0.18}, -- HOSTILE
-			[ 1] = {r = 1.00, g = 0.51, b = 0.20}, -- UNFRIENDLY
-			[ 2] = {r = 1.00, g = 0.85, b = 0.20}, -- NEUTRAL
-			[ 3] = {r = 0.20, g = 0.71, b = 0.00}, -- FRIENDLY
-			[ 5] = {r = 0.40, g = 0.53, b = 1.00}, -- PLAYER_EXTENDED
-			[ 6] = {r = 0.40, g = 0.20, b = 1.00}, -- PARTY
-			[ 7] = {r = 0.73, g = 0.20, b = 1.00}, -- PARTY_PVP
-			[ 8] = {r = 0.20, g = 1.00, b = 0.42}, -- FRIEND
-			[ 9] = {r = 0.60, g = 0.60, b = 0.60}, -- DEAD
-			[13] = {r = 0.10, g = 0.58, b = 0.28}, -- BATTLEGROUND_FRIENDLY_PVP
+			[0] = { r = 1.00, g = 0.18, b = 0.18 }, -- HOSTILE
+			[1] = { r = 1.00, g = 0.51, b = 0.20 }, -- UNFRIENDLY
+			[2] = { r = 1.00, g = 0.85, b = 0.20 }, -- NEUTRAL
+			[3] = { r = 0.20, g = 0.71, b = 0.00 }, -- FRIENDLY
+			[5] = { r = 0.40, g = 0.53, b = 1.00 }, -- PLAYER_EXTENDED
+			[6] = { r = 0.40, g = 0.20, b = 1.00 }, -- PARTY
+			[7] = { r = 0.73, g = 0.20, b = 1.00 }, -- PARTY_PVP
+			[8] = { r = 0.20, g = 1.00, b = 0.42 }, -- FRIEND
+			[9] = { r = 0.60, g = 0.60, b = 0.60 }, -- DEAD
+			[13] = { r = 0.10, g = 0.58, b = 0.28 }, -- BATTLEGROUND_FRIENDLY_PVP
 		},
 		healPrediction = {
-			personal = {r = 0, g = 1, b = 0.5, a = 0.25},
-			others = {r = 0, g = 1, b = 0, a = 0.25},
-			absorbs = {r = 1, g = 1, b = 0, a = 0.25},
-			healAbsorbs = {r = 1, g = 0, b = 0, a = 0.25},
-			overabsorbs = {r = 1, g = 1, b = 0, a = 0.25},
-			overhealabsorbs = {r = 1, g = 0, b = 0, a = 0.25},
+			personal = { r = 0, g = 1, b = 0.5, a = 0.25 },
+			others = { r = 0, g = 1, b = 0, a = 0.25 },
+			absorbs = { r = 1, g = 1, b = 0, a = 0.25 },
+			healAbsorbs = { r = 1, g = 0, b = 0, a = 0.25 },
+			overabsorbs = { r = 1, g = 1, b = 0, a = 0.25 },
+			overhealabsorbs = { r = 1, g = 0, b = 0, a = 0.25 },
 			maxOverflow = 0,
 		},
 		classResources = {
 			comboPoints = {
-				[1] = {r = 0.69, g = 0.31, b = 0.31},
-				[2] = {r = 0.69, g = 0.31, b = 0.31},
-				[3] = {r = 0.65, g = 0.63, b = 0.35},
-				[4] = {r = 0.65, g = 0.63, b = 0.35},
-				[5] = {r = 0.33, g = 0.59, b = 0.33}
+				[1] = { r = 0.69, g = 0.31, b = 0.31 },
+				[2] = { r = 0.69, g = 0.31, b = 0.31 },
+				[3] = { r = 0.65, g = 0.63, b = 0.35 },
+				[4] = { r = 0.65, g = 0.63, b = 0.35 },
+				[5] = { r = 0.33, g = 0.59, b = 0.33 },
 			},
 			DEATHKNIGHT = {
-				[1] = {r = 1, g = 0, b = 0},
-				[2] = {r = 0, g = 1, b = 0},
-				[3] = {r = 0, g = 1, b = 1},
-				[4] = {r = 0.9, g = 0.1, b = 1}
-			}
+				[1] = { r = 1, g = 0, b = 0 },
+				[2] = { r = 0, g = 1, b = 0 },
+				[3] = { r = 0, g = 1, b = 1 },
+				[4] = { r = 0.9, g = 0.1, b = 1 },
+			},
 		},
 		frameGlow = {
 			mainGlow = {
 				enable = false,
 				class = false,
-				color = {r = 1, g = 1, b = 1, a = 1}
+				color = { r = 1, g = 1, b = 1, a = 1 },
 			},
 			targetGlow = {
 				enable = true,
 				class = true,
-				color = {r = 1, g = 1, b = 1, a = 1}
+				color = { r = 1, g = 1, b = 1, a = 1 },
 			},
 			mouseoverGlow = {
 				enable = true,
 				class = false,
 				texture = "ElvUI Blank",
-				color = {r = 1, g = 1, b = 1, a = 0.1}
-			}
+				color = { r = 1, g = 1, b = 1, a = 0.1 },
+			},
 		},
 		debuffHighlight = {
-			Magic = {r = 0.2, g = 0.6, b = 1, a = 0.45},
-			Curse = {r = 0.6, g = 0, b = 1, a = 0.45},
-			Disease = {r = 0.6, g = 0.4, b = 0, a = 0.45},
-			Poison = {r = 0, g = 0.6, b = 0, a = 0.45},
-			blendMode = "ADD"
-		}
+			Magic = { r = 0.2, g = 0.6, b = 1, a = 0.45 },
+			Curse = { r = 0.6, g = 0, b = 1, a = 0.45 },
+			Disease = { r = 0.6, g = 0.4, b = 0, a = 0.45 },
+			Poison = { r = 0, g = 0.6, b = 0, a = 0.45 },
+			blendMode = "ADD",
+		},
 	},
 	units = {
 		player = {
@@ -1579,7 +1581,7 @@ P.unitframe = {
 			height = 54,
 			lowmana = 30,
 			healPrediction = {
-				enable = true
+				enable = true,
 			},
 			threatStyle = "GLOW",
 			smartAuraPosition = "DISABLED",
@@ -1587,11 +1589,11 @@ P.unitframe = {
 			disableMouseoverGlow = false,
 			disableTargetGlow = true,
 			health = {
-				text_format = "[healthcolor][health:current-percent]",
+				text_format = "[healthcolor][health:current-percent:shortvalue]",
 				position = "LEFT",
 				xOffset = 2,
 				yOffset = 0,
-				attachTextTo = "Health"
+				attachTextTo = "Health",
 			},
 			fader = {
 				enable = false,
@@ -1608,11 +1610,11 @@ P.unitframe = {
 				smooth = 0.33,
 				minAlpha = 0.35,
 				maxAlpha = 1,
-				delay = 0
+				delay = 0,
 			},
 			power = {
 				enable = true,
-				text_format = "[powercolor][power:current]",
+				text_format = "[powercolor][power:current:shortvalue]",
 				width = "fill",
 				height = 10,
 				offset = 0,
@@ -1627,58 +1629,58 @@ P.unitframe = {
 					useCustomStrata = false,
 					frameStrata = "LOW",
 					useCustomLevel = false,
-					frameLevel = 1
+					frameLevel = 1,
 				},
-				parent = "FRAME"
+				parent = "FRAME",
 			},
 			infoPanel = {
 				enable = false,
 				height = 20,
-				transparent = false
+				transparent = false,
 			},
 			name = {
 				position = "CENTER",
 				text_format = "",
 				xOffset = 0,
 				yOffset = 0,
-				attachTextTo = "Health"
+				attachTextTo = "Health",
 			},
 			pvp = {
 				position = "BOTTOM",
 				text_format = "||cFFB04F4F[pvptimer][mouseover]||r",
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			RestIcon = {
 				enable = true,
 				defaultColor = true,
-				color = {r = 1, g = 1, b = 1, a = 1},
+				color = { r = 1, g = 1, b = 1, a = 1 },
 				anchorPoint = "TOPLEFT",
 				xOffset = -3,
 				yOffset = 6,
 				size = 22,
-				texture = "DEFAULT"
+				texture = "DEFAULT",
 			},
 			raidRoleIcons = {
 				enable = true,
-				position = "TOPLEFT"
+				position = "TOPLEFT",
 			},
 			CombatIcon = {
 				enable = true,
 				defaultColor = true,
-				color = {r = 1, g = 0.2, b = 0.2, a = 1},
+				color = { r = 1, g = 0.2, b = 0.2, a = 1 },
 				anchorPoint = "CENTER",
 				xOffset = 0,
 				yOffset = 0,
 				size = 20,
-				texture = "DEFAULT"
+				texture = "DEFAULT",
 			},
 			pvpIcon = {
 				enable = false,
 				anchorPoint = "CENTER",
 				xOffset = 0,
 				yOffset = 0,
-				scale = 1
+				scale = 1,
 			},
 			portrait = {
 				enable = false,
@@ -1686,9 +1688,11 @@ P.unitframe = {
 				overlay = false,
 				fullOverlay = false,
 				style = "3D",
-				overlayAlpha = 0.35
+				overlayAlpha = 0.35,
 			},
 			buffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 8,
 				numrows = 1,
@@ -1705,9 +1709,11 @@ P.unitframe = {
 				maxDuration = 0,
 				priority = "Blacklist,Personal,PlayerBuffs,Whitelist,blockNoDuration,nonPersonal", --Player Buffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			debuffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = true,
 				perrow = 8,
 				numrows = 1,
@@ -1724,7 +1730,7 @@ P.unitframe = {
 				maxDuration = 0,
 				priority = "Blacklist,Personal,nonPersonal", --Player Debuffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			castbar = {
 				enable = true,
@@ -1744,14 +1750,14 @@ P.unitframe = {
 				iconXOffset = -10,
 				iconYOffset = 0,
 				tickWidth = 1,
-				tickColor = {r = 0, g = 0, b = 0, a = 0.8},
+				tickColor = { r = 0, g = 0, b = 0, a = 0.8 },
 				timeToHold = 0,
 				strataAndLevel = {
 					useCustomStrata = false,
 					frameStrata = "LOW",
 					useCustomLevel = false,
-					frameLevel = 1
-				}
+					frameLevel = 1,
+				},
 			},
 			classbar = {
 				enable = true,
@@ -1769,8 +1775,8 @@ P.unitframe = {
 					useCustomStrata = false,
 					frameStrata = "LOW",
 					useCustomLevel = false,
-					frameLevel = 1
-				}
+					frameLevel = 1,
+				},
 			},
 			aurabar = {
 				enable = true,
@@ -1786,7 +1792,7 @@ P.unitframe = {
 				sort = "TIME_REMAINING",
 				uniformThreshold = 0,
 				yOffset = 0,
-				spacing = 0
+				spacing = 0,
 			},
 			raidicon = {
 				enable = true,
@@ -1794,22 +1800,22 @@ P.unitframe = {
 				attachTo = "TOP",
 				attachToObject = "Frame",
 				xOffset = 0,
-				yOffset = 8
+				yOffset = 8,
 			},
 			cutaway = {
 				health = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
+					forceBlankTexture = true,
 				},
 				power = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
-				}
-			}
+					forceBlankTexture = true,
+				},
+			},
 		},
 		target = {
 			enable = true,
@@ -1820,17 +1826,17 @@ P.unitframe = {
 			smartAuraPosition = "DISABLED",
 			colorOverride = "USE_DEFAULT",
 			healPrediction = {
-				enable = true
+				enable = true,
 			},
 			middleClickFocus = true,
 			disableMouseoverGlow = false,
 			disableTargetGlow = true,
 			health = {
-				text_format = "[healthcolor][health:current-percent]",
+				text_format = "[healthcolor][health:current-percent:shortvalue]",
 				position = "RIGHT",
 				xOffset = -2,
 				yOffset = 0,
-				attachTextTo = "Health"
+				attachTextTo = "Health",
 			},
 			fader = {
 				enable = true,
@@ -1847,11 +1853,11 @@ P.unitframe = {
 				smooth = 0.33,
 				minAlpha = 0.35,
 				maxAlpha = 1,
-				delay = 0
+				delay = 0,
 			},
 			power = {
 				enable = true,
-				text_format = "[powercolor][power:current]",
+				text_format = "[powercolor][power:current:shortvalue]",
 				width = "fill",
 				height = 10,
 				offset = 0,
@@ -1866,28 +1872,28 @@ P.unitframe = {
 					useCustomStrata = false,
 					frameStrata = "LOW",
 					useCustomLevel = false,
-					frameLevel = 1
+					frameLevel = 1,
 				},
-				parent = "FRAME"
+				parent = "FRAME",
 			},
 			infoPanel = {
 				enable = false,
 				height = 20,
-				transparent = false
+				transparent = false,
 			},
 			name = {
 				position = "CENTER",
 				text_format = "[namecolor][name:medium] [difficultycolor][smartlevel] [shortclassification]",
 				xOffset = 0,
 				yOffset = 0,
-				attachTextTo = "Health"
+				attachTextTo = "Health",
 			},
 			pvpIcon = {
 				enable = false,
 				anchorPoint = "CENTER",
 				xOffset = 0,
 				yOffset = 0,
-				scale = 1
+				scale = 1,
 			},
 			portrait = {
 				enable = false,
@@ -1895,9 +1901,11 @@ P.unitframe = {
 				overlay = false,
 				fullOverlay = false,
 				style = "3D",
-				overlayAlpha = 0.35
+				overlayAlpha = 0.35,
 			},
 			buffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = true,
 				perrow = 8,
 				numrows = 1,
@@ -1914,9 +1922,11 @@ P.unitframe = {
 				maxDuration = 0,
 				priority = "Blacklist,Personal,nonPersonal", --Target Buffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			debuffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = true,
 				perrow = 8,
 				numrows = 1,
@@ -1933,7 +1943,7 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,Personal,RaidDebuffs,CCDebuffs,Friendly:Dispellable", --Target Debuffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			castbar = {
 				enable = true,
@@ -1954,8 +1964,8 @@ P.unitframe = {
 					useCustomStrata = false,
 					frameStrata = "LOW",
 					useCustomLevel = false,
-					frameLevel = 1
-				}
+					frameLevel = 1,
+				},
 			},
 			combobar = {
 				enable = true,
@@ -1971,8 +1981,8 @@ P.unitframe = {
 					useCustomStrata = false,
 					frameStrata = "LOW",
 					useCustomLevel = false,
-					frameLevel = 1
-				}
+					frameLevel = 1,
+				},
 			},
 			aurabar = {
 				enable = true,
@@ -1988,7 +1998,7 @@ P.unitframe = {
 				sort = "TIME_REMAINING",
 				uniformThreshold = 0,
 				yOffset = 0,
-				spacing = 0
+				spacing = 0,
 			},
 			raidicon = {
 				enable = true,
@@ -1996,7 +2006,7 @@ P.unitframe = {
 				attachTo = "TOP",
 				attachToObject = "Frame",
 				xOffset = 0,
-				yOffset = 8
+				yOffset = 8,
 			},
 			GPSArrow = {
 				enable = false,
@@ -2004,22 +2014,22 @@ P.unitframe = {
 				xOffset = 0,
 				yOffset = 0,
 				onMouseOver = true,
-				outOfRange = true
+				outOfRange = true,
 			},
 			cutaway = {
 				health = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
+					forceBlankTexture = true,
 				},
 				power = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
-				}
-			}
+					forceBlankTexture = true,
+				},
+			},
 		},
 		targettarget = {
 			enable = true,
@@ -2035,7 +2045,7 @@ P.unitframe = {
 				text_format = "",
 				position = "RIGHT",
 				xOffset = -2,
-				yOffset = 0
+				yOffset = 0,
 			},
 			fader = {
 				enable = true,
@@ -2052,7 +2062,7 @@ P.unitframe = {
 				smooth = 0.33,
 				minAlpha = 0.35,
 				maxAlpha = 1,
-				delay = 0
+				delay = 0,
 			},
 			power = {
 				enable = true,
@@ -2063,19 +2073,19 @@ P.unitframe = {
 				position = "LEFT",
 				hideonnpc = false,
 				xOffset = 2,
-				yOffset = 0
+				yOffset = 0,
 			},
 			infoPanel = {
 				enable = false,
 				height = 14,
-				transparent = false
+				transparent = false,
 			},
 			name = {
 				position = "CENTER",
 				text_format = "[namecolor][name:medium]",
 				xOffset = 0,
 				yOffset = 0,
-				attachTextTo = "Health"
+				attachTextTo = "Health",
 			},
 			portrait = {
 				enable = false,
@@ -2083,9 +2093,11 @@ P.unitframe = {
 				overlay = false,
 				fullOverlay = false,
 				style = "3D",
-				overlayAlpha = 0.35
+				overlayAlpha = 0.35,
 			},
 			buffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 7,
 				numrows = 1,
@@ -2102,9 +2114,11 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,Personal,PlayerBuffs,Dispellable", --TargetTarget Buffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			debuffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = true,
 				perrow = 5,
 				numrows = 1,
@@ -2121,7 +2135,7 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,Personal,RaidDebuffs,CCDebuffs,Dispellable,Whitelist", --TargetTarget Debuffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			raidicon = {
 				enable = true,
@@ -2129,22 +2143,22 @@ P.unitframe = {
 				attachTo = "TOP",
 				attachToObject = "Frame",
 				xOffset = 0,
-				yOffset = 8
+				yOffset = 8,
 			},
 			cutaway = {
 				health = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
+					forceBlankTexture = true,
 				},
 				power = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
-				}
-			}
+					forceBlankTexture = true,
+				},
+			},
 		},
 		targettargettarget = {
 			enable = false,
@@ -2160,7 +2174,7 @@ P.unitframe = {
 				text_format = "",
 				position = "RIGHT",
 				xOffset = -2,
-				yOffset = 0
+				yOffset = 0,
 			},
 			fader = {
 				enable = true,
@@ -2177,7 +2191,7 @@ P.unitframe = {
 				smooth = 0.33,
 				minAlpha = 0.35,
 				maxAlpha = 1,
-				delay = 0
+				delay = 0,
 			},
 			power = {
 				enable = true,
@@ -2188,18 +2202,18 @@ P.unitframe = {
 				position = "LEFT",
 				hideonnpc = false,
 				xOffset = 2,
-				yOffset = 0
+				yOffset = 0,
 			},
 			infoPanel = {
 				enable = false,
 				height = 12,
-				transparent = false
+				transparent = false,
 			},
 			name = {
 				position = "CENTER",
 				text_format = "[namecolor][name:medium]",
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			portrait = {
 				enable = false,
@@ -2207,9 +2221,11 @@ P.unitframe = {
 				overlay = false,
 				fullOverlay = false,
 				style = "3D",
-				overlayAlpha = 0.35
+				overlayAlpha = 0.35,
 			},
 			buffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 7,
 				numrows = 1,
@@ -2226,9 +2242,11 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,Personal,nonPersonal", --TargetTargetTarget Buffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			debuffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = true,
 				perrow = 5,
 				numrows = 1,
@@ -2245,7 +2263,7 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,Personal,nonPersonal", --TargetTargetTarget Debuffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			raidicon = {
 				enable = true,
@@ -2253,22 +2271,22 @@ P.unitframe = {
 				attachTo = "TOP",
 				attachToObject = "Frame",
 				xOffset = 0,
-				yOffset = 8
+				yOffset = 8,
 			},
 			cutaway = {
 				health = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
+					forceBlankTexture = true,
 				},
 				power = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
-				}
-			}
+					forceBlankTexture = true,
+				},
+			},
 		},
 		focus = {
 			enable = true,
@@ -2279,7 +2297,7 @@ P.unitframe = {
 			width = 190,
 			height = 36,
 			healPrediction = {
-				enable = true
+				enable = true,
 			},
 			disableMouseoverGlow = false,
 			disableTargetGlow = false,
@@ -2305,7 +2323,7 @@ P.unitframe = {
 				smooth = 0.33,
 				minAlpha = 0.35,
 				maxAlpha = 1,
-				delay = 0
+				delay = 0,
 			},
 			power = {
 				enable = true,
@@ -2317,19 +2335,19 @@ P.unitframe = {
 				hideonnpc = false,
 				xOffset = 2,
 				yOffset = 0,
-				attachTextTo = "Health"
+				attachTextTo = "Health",
 			},
 			infoPanel = {
 				enable = false,
 				height = 14,
-				transparent = false
+				transparent = false,
 			},
 			name = {
 				position = "CENTER",
 				text_format = "[namecolor][name:medium]",
 				xOffset = 0,
 				yOffset = 0,
-				attachTextTo = "Health"
+				attachTextTo = "Health",
 			},
 			portrait = {
 				enable = false,
@@ -2337,9 +2355,11 @@ P.unitframe = {
 				overlay = false,
 				fullOverlay = false,
 				style = "3D",
-				overlayAlpha = 0.35
+				overlayAlpha = 0.35,
 			},
 			buffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 7,
 				numrows = 1,
@@ -2356,9 +2376,11 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,Personal,PlayerBuffs,CastByUnit,Dispellable", --Focus Buffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			debuffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = true,
 				perrow = 5,
 				numrows = 1,
@@ -2375,7 +2397,7 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,Personal,RaidDebuffs,Dispellable,Whitelist", --Focus Debuffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			castbar = {
 				enable = true,
@@ -2396,8 +2418,8 @@ P.unitframe = {
 					useCustomStrata = false,
 					frameStrata = "LOW",
 					useCustomLevel = false,
-					frameLevel = 1
-				}
+					frameLevel = 1,
+				},
 			},
 			aurabar = {
 				enable = false,
@@ -2413,7 +2435,7 @@ P.unitframe = {
 				sort = "TIME_REMAINING",
 				uniformThreshold = 0,
 				yOffset = 0,
-				spacing = 0
+				spacing = 0,
 			},
 			raidicon = {
 				enable = true,
@@ -2421,7 +2443,7 @@ P.unitframe = {
 				attachTo = "TOP",
 				attachToObject = "Frame",
 				xOffset = 0,
-				yOffset = 8
+				yOffset = 8,
 			},
 			GPSArrow = {
 				enable = true,
@@ -2429,22 +2451,22 @@ P.unitframe = {
 				xOffset = 0,
 				yOffset = 0,
 				onMouseOver = true,
-				outOfRange = true
+				outOfRange = true,
 			},
 			cutaway = {
 				health = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
+					forceBlankTexture = true,
 				},
 				power = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
-				}
-			}
+					forceBlankTexture = true,
+				},
+			},
 		},
 		focustarget = {
 			enable = false,
@@ -2477,7 +2499,7 @@ P.unitframe = {
 				smooth = 0.33,
 				minAlpha = 0.35,
 				maxAlpha = 1,
-				delay = 0
+				delay = 0,
 			},
 			power = {
 				enable = false,
@@ -2488,18 +2510,18 @@ P.unitframe = {
 				position = "LEFT",
 				hideonnpc = false,
 				xOffset = 2,
-				yOffset = 0
+				yOffset = 0,
 			},
 			infoPanel = {
 				enable = false,
 				height = 12,
-				transparent = false
+				transparent = false,
 			},
 			name = {
 				position = "CENTER",
 				text_format = "[namecolor][name:medium]",
 				yOffset = 0,
-				xOffset = 0
+				xOffset = 0,
 			},
 			portrait = {
 				enable = false,
@@ -2507,9 +2529,11 @@ P.unitframe = {
 				overlay = false,
 				fullOverlay = false,
 				style = "3D",
-				overlayAlpha = 0.35
+				overlayAlpha = 0.35,
 			},
 			buffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 7,
 				numrows = 1,
@@ -2526,9 +2550,11 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,Personal,PlayerBuffs,Dispellable,CastByUnit", --FocusTarget Buffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			debuffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 5,
 				numrows = 1,
@@ -2545,7 +2571,7 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,Personal,RaidDebuffs,Dispellable,Whitelist", --FocusTarget Debuffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			raidicon = {
 				enable = true,
@@ -2553,22 +2579,22 @@ P.unitframe = {
 				attachTo = "TOP",
 				attachToObject = "Frame",
 				xOffset = 0,
-				yOffset = 8
+				yOffset = 8,
 			},
 			cutaway = {
 				health = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
+					forceBlankTexture = true,
 				},
 				power = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
-				}
-			}
+					forceBlankTexture = true,
+				},
+			},
 		},
 		pet = {
 			enable = true,
@@ -2579,7 +2605,7 @@ P.unitframe = {
 			width = 130,
 			height = 36,
 			healPrediction = {
-				enable = true
+				enable = true,
 			},
 			disableMouseoverGlow = false,
 			disableTargetGlow = true,
@@ -2604,7 +2630,7 @@ P.unitframe = {
 				smooth = 0.33,
 				minAlpha = 0.35,
 				maxAlpha = 1,
-				delay = 0
+				delay = 0,
 			},
 			power = {
 				enable = true,
@@ -2615,18 +2641,18 @@ P.unitframe = {
 				position = "LEFT",
 				hideonnpc = false,
 				yOffset = 0,
-				xOffset = 2
+				xOffset = 2,
 			},
 			infoPanel = {
 				enable = false,
 				height = 12,
-				transparent = false
+				transparent = false,
 			},
 			name = {
 				position = "CENTER",
 				text_format = "[namecolor][name:medium]",
 				yOffset = 0,
-				xOffset = 0
+				xOffset = 0,
 			},
 			portrait = {
 				enable = false,
@@ -2634,14 +2660,16 @@ P.unitframe = {
 				overlay = false,
 				fullOverlay = false,
 				style = "3D",
-				overlayAlpha = 0.35
+				overlayAlpha = 0.35,
 			},
 			happiness = {
 				enable = false,
 				autoHide = false,
-				width = 10
+				width = 10,
 			},
 			buffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 7,
 				numrows = 1,
@@ -2658,9 +2686,11 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,Personal,PlayerBuffs", --Pet Buffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			debuffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 5,
 				numrows = 1,
@@ -2677,7 +2707,7 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,RaidDebuffs,Dispellable,Whitelist", --Pet Debuffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			aurabar = {
 				enable = false,
@@ -2693,12 +2723,12 @@ P.unitframe = {
 				sort = "TIME_REMAINING",
 				uniformThreshold = 0,
 				yOffset = 2,
-				spacing = 2
+				spacing = 2,
 			},
 			buffIndicator = {
 				enable = true,
 				size = 8,
-				fontSize = 10
+				fontSize = 10,
 			},
 			castbar = {
 				enable = true,
@@ -2719,23 +2749,23 @@ P.unitframe = {
 					useCustomStrata = false,
 					frameStrata = "LOW",
 					useCustomLevel = false,
-					frameLevel = 1
-				}
+					frameLevel = 1,
+				},
 			},
 			cutaway = {
 				health = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
+					forceBlankTexture = true,
 				},
 				power = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
-				}
-			}
+					forceBlankTexture = true,
+				},
+			},
 		},
 		pettarget = {
 			enable = false,
@@ -2768,7 +2798,7 @@ P.unitframe = {
 				smooth = 0.33,
 				minAlpha = 0.35,
 				maxAlpha = 1,
-				delay = 0
+				delay = 0,
 			},
 			power = {
 				enable = false,
@@ -2779,18 +2809,18 @@ P.unitframe = {
 				position = "LEFT",
 				hideonnpc = false,
 				yOffset = 0,
-				xOffset = 2
+				xOffset = 2,
 			},
 			infoPanel = {
 				enable = false,
 				height = 12,
-				transparent = false
+				transparent = false,
 			},
 			name = {
 				position = "CENTER",
 				text_format = "[namecolor][name:medium]",
 				yOffset = 0,
-				xOffset = 0
+				xOffset = 0,
 			},
 			portrait = {
 				enable = false,
@@ -2798,9 +2828,11 @@ P.unitframe = {
 				overlay = false,
 				fullOverlay = false,
 				style = "3D",
-				overlayAlpha = 0.35
+				overlayAlpha = 0.35,
 			},
 			buffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 7,
 				numrows = 1,
@@ -2817,9 +2849,11 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,PlayerBuffs,CastByUnit,Whitelist", --PetTarget Buffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			debuffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 5,
 				numrows = 1,
@@ -2836,22 +2870,22 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,Personal,RaidDebuffs", --PetTarget Debuffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			cutaway = {
 				health = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
+					forceBlankTexture = true,
 				},
 				power = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
-				}
-			}
+					forceBlankTexture = true,
+				},
+			},
 		},
 		boss = {
 			enable = true,
@@ -2865,7 +2899,7 @@ P.unitframe = {
 			disableMouseoverGlow = false,
 			disableTargetGlow = false,
 			health = {
-				text_format = "[healthcolor][health:current]",
+				text_format = "[healthcolor][health:current:shortvalue]",
 				position = "LEFT",
 				yOffset = 0,
 				xOffset = 2,
@@ -2886,11 +2920,11 @@ P.unitframe = {
 				smooth = 0.33,
 				minAlpha = 0.35,
 				maxAlpha = 1,
-				delay = 0
+				delay = 0,
 			},
 			power = {
 				enable = true,
-				text_format = "[powercolor][power:current]",
+				text_format = "[powercolor][power:current:shortvalue]",
 				width = "fill",
 				height = 7,
 				offset = 0,
@@ -2898,7 +2932,7 @@ P.unitframe = {
 				hideonnpc = false,
 				yOffset = 0,
 				xOffset = -2,
-				attachTextTo = "Health"
+				attachTextTo = "Health",
 			},
 			portrait = {
 				enable = false,
@@ -2906,21 +2940,23 @@ P.unitframe = {
 				overlay = false,
 				fullOverlay = false,
 				style = "3D",
-				overlayAlpha = 0.35
+				overlayAlpha = 0.35,
 			},
 			infoPanel = {
 				enable = false,
 				height = 16,
-				transparent = false
+				transparent = false,
 			},
 			name = {
 				position = "CENTER",
 				text_format = "[namecolor][name:medium]",
 				yOffset = 0,
 				xOffset = 0,
-				attachTextTo = "Health"
+				attachTextTo = "Health",
 			},
 			buffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = true,
 				perrow = 3,
 				numrows = 1,
@@ -2938,9 +2974,11 @@ P.unitframe = {
 				priority = "Blacklist,CastByUnit,Whitelist", --Boss Buffs
 				xOffset = 0,
 				yOffset = 20,
-				sizeOverride = 22
+				sizeOverride = 22,
 			},
 			debuffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = true,
 				perrow = 3,
 				numrows = 2,
@@ -2958,7 +2996,7 @@ P.unitframe = {
 				priority = "Blacklist,Personal,RaidDebuffs,CastByUnit,Whitelist", --Boss Debuffs
 				xOffset = 0,
 				yOffset = -3,
-				sizeOverride = 22
+				sizeOverride = 22,
 			},
 			castbar = {
 				enable = true,
@@ -2979,8 +3017,8 @@ P.unitframe = {
 					useCustomStrata = false,
 					frameStrata = "LOW",
 					useCustomLevel = false,
-					frameLevel = 1
-				}
+					frameLevel = 1,
+				},
 			},
 			raidicon = {
 				enable = true,
@@ -2988,22 +3026,22 @@ P.unitframe = {
 				attachTo = "TOP",
 				attachToObject = "Frame",
 				xOffset = 0,
-				yOffset = 8
+				yOffset = 8,
 			},
 			cutaway = {
 				health = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
+					forceBlankTexture = true,
 				},
 				power = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
-				}
-			}
+					forceBlankTexture = true,
+				},
+			},
 		},
 		arena = {
 			enable = true,
@@ -3014,13 +3052,13 @@ P.unitframe = {
 			width = 246,
 			height = 47,
 			healPrediction = {
-				enable = true
+				enable = true,
 			},
 			colorOverride = "USE_DEFAULT",
 			disableMouseoverGlow = false,
 			disableTargetGlow = false,
 			health = {
-				text_format = "[healthcolor][health:current]",
+				text_format = "[healthcolor][health:current:shortvalue]",
 				position = "LEFT",
 				yOffset = 0,
 				xOffset = 2,
@@ -3041,11 +3079,11 @@ P.unitframe = {
 				smooth = 0.33,
 				minAlpha = 0.35,
 				maxAlpha = 1,
-				delay = 0
+				delay = 0,
 			},
 			power = {
 				enable = true,
-				text_format = "[powercolor][power:current]",
+				text_format = "[powercolor][power:current:shortvalue]",
 				width = "fill",
 				height = 7,
 				offset = 0,
@@ -3053,19 +3091,19 @@ P.unitframe = {
 				position = "RIGHT",
 				hideonnpc = false,
 				yOffset = 0,
-				xOffset = -2
+				xOffset = -2,
 			},
 			infoPanel = {
 				enable = false,
 				height = 17,
-				transparent = false
+				transparent = false,
 			},
 			name = {
 				position = "CENTER",
 				text_format = "[namecolor][name:medium]",
 				yOffset = 0,
 				xOffset = 0,
-				attachTextTo = "Health"
+				attachTextTo = "Health",
 			},
 			portrait = {
 				enable = false,
@@ -3073,9 +3111,11 @@ P.unitframe = {
 				overlay = false,
 				fullOverlay = false,
 				style = "3D",
-				overlayAlpha = 0.35
+				overlayAlpha = 0.35,
 			},
 			buffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = true,
 				perrow = 3,
 				numrows = 1,
@@ -3093,9 +3133,11 @@ P.unitframe = {
 				priority = "Blacklist,TurtleBuffs,PlayerBuffs,Dispellable", --Arena Buffs
 				sizeOverride = 27,
 				xOffset = 0,
-				yOffset = 16
+				yOffset = 16,
 			},
 			debuffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = true,
 				perrow = 3,
 				numrows = 1,
@@ -3113,7 +3155,7 @@ P.unitframe = {
 				priority = "Blacklist,blockNoDuration,Personal,CCDebuffs,Whitelist", --Arena Debuffs
 				sizeOverride = 27,
 				xOffset = 0,
-				yOffset = -16
+				yOffset = -16,
 			},
 			castbar = {
 				enable = true,
@@ -3134,30 +3176,30 @@ P.unitframe = {
 					useCustomStrata = false,
 					frameStrata = "LOW",
 					useCustomLevel = false,
-					frameLevel = 1
-				}
+					frameLevel = 1,
+				},
 			},
 			pvpTrinket = {
 				enable = true,
 				position = "RIGHT",
 				size = 46,
 				xOffset = 1,
-				yOffset = 0
+				yOffset = 0,
 			},
 			cutaway = {
 				health = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
+					forceBlankTexture = true,
 				},
 				power = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
-				}
-			}
+					forceBlankTexture = true,
+				},
+			},
 		},
 		party = {
 			enable = true,
@@ -3176,7 +3218,7 @@ P.unitframe = {
 			startFromCenter = false,
 			showPlayer = true,
 			healPrediction = {
-				enable = false
+				enable = false,
 			},
 			colorOverride = "USE_DEFAULT",
 			width = 184,
@@ -3185,7 +3227,7 @@ P.unitframe = {
 			disableMouseoverGlow = false,
 			disableTargetGlow = false,
 			health = {
-				text_format = "[healthcolor][health:current-percent]",
+				text_format = "[healthcolor][health:current-percent:shortvalue]",
 				position = "LEFT",
 				orientation = "HORIZONTAL",
 				attachTextTo = "Health",
@@ -3208,11 +3250,11 @@ P.unitframe = {
 				smooth = 0.33,
 				minAlpha = 0.35,
 				maxAlpha = 1,
-				delay = 0
+				delay = 0,
 			},
 			power = {
 				enable = true,
-				text_format = "[powercolor][power:current]",
+				text_format = "[powercolor][power:current:shortvalue]",
 				attachTextTo = "Health",
 				width = "fill",
 				height = 7,
@@ -3220,12 +3262,12 @@ P.unitframe = {
 				position = "RIGHT",
 				hideonnpc = false,
 				yOffset = 0,
-				xOffset = -2
+				xOffset = -2,
 			},
 			infoPanel = {
 				enable = false,
 				height = 15,
-				transparent = false
+				transparent = false,
 			},
 			name = {
 				position = "CENTER",
@@ -3240,9 +3282,11 @@ P.unitframe = {
 				overlay = false,
 				fullOverlay = false,
 				style = "3D",
-				overlayAlpha = 0.35
+				overlayAlpha = 0.35,
 			},
 			buffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 4,
 				numrows = 1,
@@ -3259,9 +3303,11 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,TurtleBuffs", --Party Buffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			debuffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = true,
 				perrow = 4,
 				numrows = 1,
@@ -3279,13 +3325,13 @@ P.unitframe = {
 				priority = "Blacklist,RaidDebuffs,CCDebuffs,Dispellable,Whitelist", --Party Debuffs
 				xOffset = 0,
 				yOffset = 0,
-				sizeOverride = 52
+				sizeOverride = 52,
 			},
 			buffIndicator = {
 				enable = true,
 				size = 8,
 				fontSize = 10,
-				profileSpecific = false
+				profileSpecific = false,
 			},
 			rdebuffs = {
 				enable = false,
@@ -3301,14 +3347,14 @@ P.unitframe = {
 					position = "CENTER",
 					xOffset = 0,
 					yOffset = 0,
-					color = {r = 1, g = 0.9, b = 0, a = 1}
+					color = { r = 1, g = 0.9, b = 0, a = 1 },
 				},
 				stack = {
 					position = "BOTTOMRIGHT",
 					xOffset = 0,
 					yOffset = 2,
-					color = {r = 1, g = 0.9, b = 0, a = 1}
-				}
+					color = { r = 1, g = 0.9, b = 0, a = 1 },
+				},
 			},
 			castbar = {
 				enable = false,
@@ -3329,8 +3375,8 @@ P.unitframe = {
 					useCustomStrata = false,
 					frameStrata = "LOW",
 					useCustomLevel = false,
-					frameLevel = 1
-				}
+					frameLevel = 1,
+				},
 			},
 			roleIcon = {
 				enable = true,
@@ -3342,11 +3388,11 @@ P.unitframe = {
 				tank = true,
 				healer = true,
 				damager = true,
-				combatHide = false
+				combatHide = false,
 			},
 			raidRoleIcons = {
 				enable = true,
-				position = "TOPLEFT"
+				position = "TOPLEFT",
 			},
 			petsGroup = {
 				enable = false,
@@ -3359,8 +3405,8 @@ P.unitframe = {
 					position = "CENTER",
 					text_format = "[namecolor][name:short]",
 					yOffset = 0,
-					xOffset = 0
-				}
+					xOffset = 0,
+				},
 			},
 			targetsGroup = {
 				enable = false,
@@ -3373,7 +3419,7 @@ P.unitframe = {
 					position = "CENTER",
 					text_format = "[namecolor][name:short]",
 					yOffset = 0,
-					xOffset = 0
+					xOffset = 0,
 				},
 				raidicon = {
 					enable = true,
@@ -3381,8 +3427,8 @@ P.unitframe = {
 					attachTo = "TOP",
 					attachToObject = "Frame",
 					xOffset = 0,
-					yOffset = 8
-				}
+					yOffset = 8,
+				},
 			},
 			raidicon = {
 				enable = true,
@@ -3390,7 +3436,7 @@ P.unitframe = {
 				attachTo = "TOP",
 				attachToObject = "Frame",
 				xOffset = 0,
-				yOffset = 8
+				yOffset = 8,
 			},
 			GPSArrow = {
 				enable = true,
@@ -3398,7 +3444,7 @@ P.unitframe = {
 				xOffset = 0,
 				yOffset = 0,
 				onMouseOver = true,
-				outOfRange = true
+				outOfRange = true,
 			},
 			readycheckIcon = {
 				enable = true,
@@ -3406,7 +3452,7 @@ P.unitframe = {
 				attachTo = "Health",
 				position = "BOTTOM",
 				xOffset = 0,
-				yOffset = 2
+				yOffset = 2,
 			},
 			resurrectIcon = {
 				enable = true,
@@ -3414,22 +3460,22 @@ P.unitframe = {
 				attachTo = "CENTER",
 				attachToObject = "Frame",
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			cutaway = {
 				health = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
+					forceBlankTexture = true,
 				},
 				power = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
-				}
-			}
+					forceBlankTexture = true,
+				},
+			},
 		},
 		raid = {
 			enable = true,
@@ -3445,7 +3491,7 @@ P.unitframe = {
 			sortDir = "ASC",
 			showPlayer = true,
 			healPrediction = {
-				enable = false
+				enable = false,
 			},
 			colorOverride = "USE_DEFAULT",
 			width = 80,
@@ -3454,7 +3500,7 @@ P.unitframe = {
 			disableMouseoverGlow = false,
 			disableTargetGlow = false,
 			health = {
-				text_format = "[healthcolor][health:deficit]",
+				text_format = "[healthcolor][health:deficit:shortvalue]",
 				position = "BOTTOM",
 				orientation = "HORIZONTAL",
 				attachTextTo = "Health",
@@ -3477,7 +3523,7 @@ P.unitframe = {
 				smooth = 0.33,
 				minAlpha = 0.35,
 				maxAlpha = 1,
-				delay = 0
+				delay = 0,
 			},
 			power = {
 				enable = true,
@@ -3488,19 +3534,19 @@ P.unitframe = {
 				position = "BOTTOMRIGHT",
 				hideonnpc = false,
 				yOffset = 2,
-				xOffset = -2
+				xOffset = -2,
 			},
 			infoPanel = {
 				enable = false,
 				height = 12,
-				transparent = false
+				transparent = false,
 			},
 			name = {
 				position = "CENTER",
 				attachTextTo = "Health",
 				text_format = "[namecolor][name:short]",
 				yOffset = 0,
-				xOffset = 0
+				xOffset = 0,
 			},
 			portrait = {
 				enable = false,
@@ -3508,9 +3554,11 @@ P.unitframe = {
 				overlay = false,
 				fullOverlay = false,
 				style = "3D",
-				overlayAlpha = 0.35
+				overlayAlpha = 0.35,
 			},
 			buffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 3,
 				numrows = 1,
@@ -3527,9 +3575,11 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,TurtleBuffs", --Raid Buffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			debuffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 3,
 				numrows = 1,
@@ -3546,13 +3596,13 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,RaidDebuffs,CCDebuffs,Dispellable", --Raid Debuffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			buffIndicator = {
 				enable = true,
 				size = 8,
 				fontSize = 10,
-				profileSpecific = false
+				profileSpecific = false,
 			},
 			rdebuffs = {
 				enable = true,
@@ -3568,14 +3618,14 @@ P.unitframe = {
 					position = "CENTER",
 					xOffset = 0,
 					yOffset = 0,
-					color = {r = 1, g = 0.9, b = 0, a = 1}
+					color = { r = 1, g = 0.9, b = 0, a = 1 },
 				},
 				stack = {
 					position = "BOTTOMRIGHT",
 					xOffset = 0,
 					yOffset = 2,
-					color = {r = 1, g = 0.9, b = 0, a = 1}
-				}
+					color = { r = 1, g = 0.9, b = 0, a = 1 },
+				},
 			},
 			roleIcon = {
 				enable = false,
@@ -3587,11 +3637,11 @@ P.unitframe = {
 				tank = true,
 				healer = true,
 				damager = true,
-				combatHide = false
+				combatHide = false,
 			},
 			raidRoleIcons = {
 				enable = true,
-				position = "TOPLEFT"
+				position = "TOPLEFT",
 			},
 			raidicon = {
 				enable = true,
@@ -3599,7 +3649,7 @@ P.unitframe = {
 				attachTo = "TOP",
 				attachToObject = "Frame",
 				xOffset = 0,
-				yOffset = 8
+				yOffset = 8,
 			},
 			GPSArrow = {
 				enable = true,
@@ -3607,7 +3657,7 @@ P.unitframe = {
 				xOffset = 0,
 				yOffset = 0,
 				onMouseOver = true,
-				outOfRange = true
+				outOfRange = true,
 			},
 			readycheckIcon = {
 				enable = true,
@@ -3615,7 +3665,7 @@ P.unitframe = {
 				attachTo = "Health",
 				position = "BOTTOM",
 				xOffset = 0,
-				yOffset = 2
+				yOffset = 2,
 			},
 			resurrectIcon = {
 				enable = true,
@@ -3623,22 +3673,22 @@ P.unitframe = {
 				attachTo = "CENTER",
 				attachToObject = "Frame",
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			cutaway = {
 				health = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
+					forceBlankTexture = true,
 				},
 				power = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
-				}
-			}
+					forceBlankTexture = true,
+				},
+			},
 		},
 		raid40 = {
 			enable = true,
@@ -3654,7 +3704,7 @@ P.unitframe = {
 			sortDir = "ASC",
 			showPlayer = true,
 			healPrediction = {
-				enable = false
+				enable = false,
 			},
 			colorOverride = "USE_DEFAULT",
 			width = 80,
@@ -3663,7 +3713,7 @@ P.unitframe = {
 			disableMouseoverGlow = false,
 			disableTargetGlow = false,
 			health = {
-				text_format = "[healthcolor][health:deficit]",
+				text_format = "[healthcolor][health:deficit:shortvalue]",
 				position = "BOTTOM",
 				orientation = "HORIZONTAL",
 				frequentUpdates = false,
@@ -3686,7 +3736,7 @@ P.unitframe = {
 				smooth = 0.33,
 				minAlpha = 0.35,
 				maxAlpha = 1,
-				delay = 0
+				delay = 0,
 			},
 			power = {
 				enable = false,
@@ -3697,19 +3747,19 @@ P.unitframe = {
 				position = "BOTTOMRIGHT",
 				hideonnpc = false,
 				yOffset = 2,
-				xOffset = -2
+				xOffset = -2,
 			},
 			infoPanel = {
 				enable = false,
 				height = 12,
-				transparent = false
+				transparent = false,
 			},
 			name = {
 				position = "CENTER",
 				text_format = "[namecolor][name:short]",
 				yOffset = 0,
 				xOffset = 0,
-				attachTextTo = "Health"
+				attachTextTo = "Health",
 			},
 			portrait = {
 				enable = false,
@@ -3717,9 +3767,11 @@ P.unitframe = {
 				overlay = false,
 				fullOverlay = false,
 				style = "3D",
-				overlayAlpha = 0.35
+				overlayAlpha = 0.35,
 			},
 			buffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 3,
 				numrows = 1,
@@ -3736,9 +3788,11 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,TurtleBuffs", --Raid40 Buffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			debuffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 3,
 				numrows = 1,
@@ -3755,7 +3809,7 @@ P.unitframe = {
 				maxDuration = 300,
 				priority = "Blacklist,RaidDebuffs,CCDebuffs,Dispellable,Whitelist", --Raid40 Debuffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			rdebuffs = {
 				enable = false,
@@ -3771,24 +3825,24 @@ P.unitframe = {
 					position = "CENTER",
 					xOffset = 0,
 					yOffset = 0,
-					color = {r = 1, g = 0.9, b = 0, a = 1}
+					color = { r = 1, g = 0.9, b = 0, a = 1 },
 				},
 				stack = {
 					position = "BOTTOMRIGHT",
 					xOffset = 0,
 					yOffset = 2,
-					color = {r = 1, g = 0.9, b = 0, a = 1}
-				}
+					color = { r = 1, g = 0.9, b = 0, a = 1 },
+				},
 			},
 			raidRoleIcons = {
 				enable = true,
-				position = "TOPLEFT"
+				position = "TOPLEFT",
 			},
 			buffIndicator = {
 				enable = true,
 				size = 8,
 				fontSize = 10,
-				profileSpecific = false
+				profileSpecific = false,
 			},
 			raidicon = {
 				enable = true,
@@ -3796,7 +3850,7 @@ P.unitframe = {
 				attachTo = "TOP",
 				attachToObject = "Frame",
 				xOffset = 0,
-				yOffset = 8
+				yOffset = 8,
 			},
 			GPSArrow = {
 				enable = true,
@@ -3804,7 +3858,7 @@ P.unitframe = {
 				xOffset = 0,
 				yOffset = 0,
 				onMouseOver = true,
-				outOfRange = true
+				outOfRange = true,
 			},
 			readycheckIcon = {
 				enable = true,
@@ -3812,7 +3866,7 @@ P.unitframe = {
 				attachTo = "Health",
 				position = "BOTTOM",
 				xOffset = 0,
-				yOffset = 2
+				yOffset = 2,
 			},
 			resurrectIcon = {
 				enable = true,
@@ -3820,22 +3874,22 @@ P.unitframe = {
 				attachTo = "CENTER",
 				attachToObject = "Frame",
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			cutaway = {
 				health = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
+					forceBlankTexture = true,
 				},
 				power = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
-				}
-			}
+					forceBlankTexture = true,
+				},
+			},
 		},
 		raidpet = {
 			enable = false,
@@ -3853,7 +3907,7 @@ P.unitframe = {
 			invertGroupingOrder = false,
 			startFromCenter = false,
 			healPrediction = {
-				enable = true
+				enable = true,
 			},
 			colorOverride = "USE_DEFAULT",
 			width = 80,
@@ -3862,7 +3916,7 @@ P.unitframe = {
 			disableMouseoverGlow = false,
 			disableTargetGlow = false,
 			health = {
-				text_format = "[healthcolor][health:deficit]",
+				text_format = "[healthcolor][health:deficit:shortvalue]",
 				position = "BOTTOM",
 				orientation = "HORIZONTAL",
 				frequentUpdates = true,
@@ -3885,14 +3939,14 @@ P.unitframe = {
 				smooth = 0.33,
 				minAlpha = 0.35,
 				maxAlpha = 1,
-				delay = 0
+				delay = 0,
 			},
 			name = {
 				position = "TOP",
 				text_format = "[namecolor][name:short]",
 				yOffset = -2,
 				xOffset = 0,
-				attachTextTo = "Health"
+				attachTextTo = "Health",
 			},
 			portrait = {
 				enable = false,
@@ -3900,9 +3954,11 @@ P.unitframe = {
 				overlay = false,
 				fullOverlay = false,
 				style = "3D",
-				overlayAlpha = 0.35
+				overlayAlpha = 0.35,
 			},
 			buffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 3,
 				numrows = 1,
@@ -3919,9 +3975,11 @@ P.unitframe = {
 				maxDuration = 0,
 				priority = "Blacklist,Personal,PlayerBuffs,blockNoDuration,nonPersonal", --RaidPet Buffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			debuffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 3,
 				numrows = 1,
@@ -3938,7 +3996,7 @@ P.unitframe = {
 				maxDuration = 0,
 				priority = "Blacklist,Personal,Whitelist,RaidDebuffs,blockNoDuration,nonPersonal", --RaidPet Debuffs
 				xOffset = 0,
-				yOffset = 0
+				yOffset = 0,
 			},
 			buffIndicator = {
 				enable = true,
@@ -3959,14 +4017,14 @@ P.unitframe = {
 					position = "CENTER",
 					xOffset = 0,
 					yOffset = 0,
-					color = {r = 1, g = 0.9, b = 0, a = 1}
+					color = { r = 1, g = 0.9, b = 0, a = 1 },
 				},
 				stack = {
 					position = "BOTTOMRIGHT",
 					xOffset = 0,
 					yOffset = 2,
-					color = {r = 1, g = 0.9, b = 0, a = 1}
-				}
+					color = { r = 1, g = 0.9, b = 0, a = 1 },
+				},
 			},
 			raidicon = {
 				enable = true,
@@ -3974,22 +4032,22 @@ P.unitframe = {
 				attachTo = "TOP",
 				attachToObject = "Frame",
 				xOffset = 0,
-				yOffset = 8
+				yOffset = 8,
 			},
 			cutaway = {
 				health = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
+					forceBlankTexture = true,
 				},
 				power = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
-				}
-			}
+					forceBlankTexture = true,
+				},
+			},
 		},
 		tank = {
 			enable = true,
@@ -4006,7 +4064,7 @@ P.unitframe = {
 				text_format = "[namecolor][name:medium]",
 				yOffset = 0,
 				xOffset = 0,
-				attachTextTo = "Health"
+				attachTextTo = "Health",
 			},
 			fader = {
 				enable = true,
@@ -4023,9 +4081,11 @@ P.unitframe = {
 				smooth = 0.33,
 				minAlpha = 0.35,
 				maxAlpha = 1,
-				delay = 0
+				delay = 0,
 			},
 			buffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 6,
 				numrows = 1,
@@ -4042,9 +4102,11 @@ P.unitframe = {
 				maxDuration = 0,
 				priority = "",
 				xOffset = 0,
-				yOffset = 2
+				yOffset = 2,
 			},
 			debuffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 6,
 				numrows = 1,
@@ -4061,13 +4123,13 @@ P.unitframe = {
 				maxDuration = 0,
 				priority = "",
 				xOffset = 0,
-				yOffset = 1
+				yOffset = 1,
 			},
 			buffIndicator = {
 				enable = true,
 				size = 8,
 				fontSize = 10,
-				profileSpecific = false
+				profileSpecific = false,
 			},
 			rdebuffs = {
 				enable = true,
@@ -4083,14 +4145,14 @@ P.unitframe = {
 					position = "CENTER",
 					xOffset = 0,
 					yOffset = 0,
-					color = {r = 1, g = 0.9, b = 0, a = 1}
+					color = { r = 1, g = 0.9, b = 0, a = 1 },
 				},
 				stack = {
 					position = "BOTTOMRIGHT",
 					xOffset = 0,
 					yOffset = 2,
-					color = {r = 1, g = 0.9, b = 0, a = 1}
-				}
+					color = { r = 1, g = 0.9, b = 0, a = 1 },
+				},
 			},
 			raidicon = {
 				enable = true,
@@ -4098,7 +4160,7 @@ P.unitframe = {
 				attachTo = "TOP",
 				attachToObject = "Frame",
 				xOffset = 0,
-				yOffset = 8
+				yOffset = 8,
 			},
 			targetsGroup = {
 				enable = true,
@@ -4113,7 +4175,7 @@ P.unitframe = {
 					text_format = "[namecolor][name:medium]",
 					yOffset = 0,
 					xOffset = 0,
-					attachTextTo = "Health"
+					attachTextTo = "Health",
 				},
 				raidicon = {
 					enable = true,
@@ -4121,23 +4183,23 @@ P.unitframe = {
 					attachTo = "TOP",
 					attachToObject = "Frame",
 					xOffset = 0,
-					yOffset = 8
-				}
+					yOffset = 8,
+				},
 			},
 			cutaway = {
 				health = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
+					forceBlankTexture = true,
 				},
 				power = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
-				}
-			}
+					forceBlankTexture = true,
+				},
+			},
 		},
 		assist = {
 			enable = true,
@@ -4154,7 +4216,7 @@ P.unitframe = {
 				text_format = "[namecolor][name:medium]",
 				yOffset = 0,
 				xOffset = 0,
-				attachTextTo = "Health"
+				attachTextTo = "Health",
 			},
 			fader = {
 				enable = true,
@@ -4171,9 +4233,11 @@ P.unitframe = {
 				smooth = 0.33,
 				minAlpha = 0.35,
 				maxAlpha = 1,
-				delay = 0
+				delay = 0,
 			},
 			buffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 6,
 				numrows = 1,
@@ -4190,9 +4254,11 @@ P.unitframe = {
 				maxDuration = 0,
 				priority = "",
 				xOffset = 0,
-				yOffset = 2
+				yOffset = 2,
 			},
 			debuffs = {
+				keepSizeRatio = true,
+				height = 30,
 				enable = false,
 				perrow = 6,
 				numrows = 1,
@@ -4209,13 +4275,13 @@ P.unitframe = {
 				maxDuration = 0,
 				priority = "",
 				xOffset = 0,
-				yOffset = 1
+				yOffset = 1,
 			},
 			buffIndicator = {
 				enable = true,
 				size = 8,
 				fontSize = 10,
-				profileSpecific = false
+				profileSpecific = false,
 			},
 			rdebuffs = {
 				enable = true,
@@ -4231,14 +4297,14 @@ P.unitframe = {
 					position = "CENTER",
 					xOffset = 0,
 					yOffset = 0,
-					color = {r = 1, g = 0.9, b = 0, a = 1}
+					color = { r = 1, g = 0.9, b = 0, a = 1 },
 				},
 				stack = {
 					position = "BOTTOMRIGHT",
 					xOffset = 0,
 					yOffset = 2,
-					color = {r = 1, g = 0.9, b = 0, a = 1}
-				}
+					color = { r = 1, g = 0.9, b = 0, a = 1 },
+				},
 			},
 			raidicon = {
 				enable = true,
@@ -4246,7 +4312,7 @@ P.unitframe = {
 				attachTo = "TOP",
 				attachToObject = "Frame",
 				xOffset = 0,
-				yOffset = 8
+				yOffset = 8,
 			},
 			targetsGroup = {
 				enable = true,
@@ -4261,7 +4327,7 @@ P.unitframe = {
 					text_format = "[namecolor][name:medium]",
 					yOffset = 0,
 					xOffset = 0,
-					attachTextTo = "Frame"
+					attachTextTo = "Frame",
 				},
 				raidicon = {
 					enable = true,
@@ -4269,25 +4335,25 @@ P.unitframe = {
 					attachTo = "TOP",
 					attachToObject = "Frame",
 					xOffset = 0,
-					yOffset = 8
-				}
+					yOffset = 8,
+				},
 			},
 			cutaway = {
 				health = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
+					forceBlankTexture = true,
 				},
 				power = {
 					enabled = false,
 					fadeOutTime = 0.6,
 					lengthBeforeFade = 0.3,
-					forceBlankTexture = true
-				}
-			}
-		}
-	}
+					forceBlankTexture = true,
+				},
+			},
+		},
+	},
 }
 
 --Cooldown
@@ -4323,8 +4389,8 @@ P.cooldown = {
 
 	fonts = {
 		enable = false,
-		font = 'PT Sans Narrow',
-		fontOutline = 'OUTLINE',
+		font = "PT Sans Narrow",
+		fontOutline = "OUTLINE",
 		fontSize = 18,
 	},
 }
@@ -4335,9 +4401,9 @@ local STANCE_SLOTS = _G.NUM_STANCE_SLOTS or 10
 
 P.actionbar = {
 	colorSwipeNormal = { r = 0, g = 0, b = 0, a = 0.8 },
-	hotkeyTextPosition = 'TOPRIGHT',
-	macroTextPosition = 'TOPRIGHT',
-	countTextPosition = 'BOTTOMRIGHT',
+	hotkeyTextPosition = "TOPRIGHT",
+	macroTextPosition = "TOPRIGHT",
+	countTextPosition = "BOTTOMRIGHT",
 	countTextXOffset = 0,
 	countTextYOffset = 2,
 	desaturateOnCooldown = false,
@@ -4345,15 +4411,15 @@ P.actionbar = {
 	equippedItemColor = { r = 0.4, g = 1.0, b = 0.4 },
 	flashAnimation = false,
 	flyoutSize = 32, -- match buttonsize default, blizz default is 28
-	font = 'Homespun',
+	font = "Homespun",
 	fontColor = { r = 1, g = 1, b = 1 },
-	fontOutline = 'MONOCHROMEOUTLINE',
+	fontOutline = "MONOCHROMEOUTLINE",
 	fontSize = 10,
 	globalFadeAlpha = 0,
 	handleOverlay = true,
 	keyDown = false,
 	lockActionBars = true,
-	movementModifier = 'SHIFT',
+	movementModifier = "SHIFT",
 	noPowerColor = { r = 0.5, g = 0.5, b = 1 },
 	noRangeColor = { r = 0.8, g = 0.1, b = 0.1 },
 	notUsableColor = { r = 0.4, g = 0.4, b = 0.4 },
@@ -4369,7 +4435,7 @@ P.actionbar = {
 		clickThrough = false,
 		buttons = ACTION_SLOTS,
 		buttonsPerRow = 1,
-		point = 'TOPRIGHT',
+		point = "TOPRIGHT",
 		backdrop = true,
 		heightMult = 1,
 		widthMult = 1,
@@ -4380,16 +4446,16 @@ P.actionbar = {
 		backdropSpacing = 2,
 		alpha = 1,
 		inheritGlobalFade = false,
-		visibility = "[pet,novehicleui,nobonusbar:5] show;hide"
+		visibility = "[pet,novehicleui,nobonusbar:5] show;hide",
 	},
 	stanceBar = {
 		enabled = true,
-		style = 'darkenInactive',
+		style = "darkenInactive",
 		mouseover = false,
 		clickThrough = false,
 		buttonsPerRow = STANCE_SLOTS,
 		buttons = STANCE_SLOTS,
-		point = 'TOPLEFT',
+		point = "TOPLEFT",
 		backdrop = false,
 		heightMult = 1,
 		widthMult = 1,
@@ -4400,7 +4466,7 @@ P.actionbar = {
 		backdropSpacing = 2,
 		alpha = 1,
 		inheritGlobalFade = false,
-		visibility = "[vehicleui] hide; show"
+		visibility = "[vehicleui] hide; show",
 	},
 	totemBar = {
 		enable = true,
@@ -4409,16 +4475,16 @@ P.actionbar = {
 		keepSizeRatio = true,
 		buttonSize = 32,
 		buttonHeight = 32,
-		flyoutDirection = 'UP',
+		flyoutDirection = "UP",
 		flyoutSize = 28,
 		flyoutHeight = 28,
 		flyoutSpacing = 2,
-		font = 'PT Sans Narrow',
-		fontOutline = 'OUTLINE',
+		font = "PT Sans Narrow",
+		fontOutline = "OUTLINE",
 		fontSize = 12,
 		mouseover = false,
-		visibility = '[vehicleui] hide;show',
-		frameStrata = 'LOW',
+		visibility = "[vehicleui] hide;show",
+		frameStrata = "LOW",
 		frameLevel = 5,
 	},
 	microbar = {
@@ -4428,24 +4494,24 @@ P.actionbar = {
 		buttonsPerRow = 12,
 		buttonSize = 20,
 		keepSizeRatio = false,
-		point = 'TOPLEFT',
+		point = "TOPLEFT",
 		buttonHeight = 28,
 		buttonSpacing = 2,
 		alpha = 1,
-		visibility = 'show',
+		visibility = "show",
 		backdrop = false,
 		backdropSpacing = 2,
 		heightMult = 1,
 		widthMult = 1,
-		frameStrata = 'LOW',
+		frameStrata = "LOW",
 		frameLevel = 1,
 	},
 	vehicleExitButton = {
 		enable = true,
 		size = 32,
 		level = 1,
-		strata = 'MEDIUM',
-	}
+		strata = "MEDIUM",
+	},
 }
 
 local AB_Bar = {
@@ -4455,7 +4521,7 @@ local AB_Bar = {
 	keepSizeRatio = true,
 	buttons = 12,
 	buttonsPerRow = 12,
-	point = 'BOTTOMLEFT',
+	point = "BOTTOMLEFT",
 	backdrop = false,
 	heightMult = 1,
 	widthMult = 1,
@@ -4466,71 +4532,72 @@ local AB_Bar = {
 	alpha = 1,
 	inheritGlobalFade = false,
 	showGrid = true,
-	flyoutDirection = 'AUTOMATIC',
+	flyoutDirection = "AUTOMATIC",
 	paging = {},
 	countColor = { r = 1, g = 1, b = 1 },
-	countFont = 'Homespun',
-	countFontOutline = 'MONOCHROMEOUTLINE',
+	countFont = "Homespun",
+	countFontOutline = "MONOCHROMEOUTLINE",
 	countFontSize = 10,
 	countFontXOffset = 0,
 	countFontYOffset = 2,
 	counttext = true,
-	countTextPosition = 'BOTTOMRIGHT',
+	countTextPosition = "BOTTOMRIGHT",
 	hotkeyColor = { r = 1, g = 1, b = 1 },
-	hotkeyFont = 'Homespun',
-	hotkeyFontOutline = 'MONOCHROMEOUTLINE',
+	hotkeyFont = "Homespun",
+	hotkeyFontOutline = "MONOCHROMEOUTLINE",
 	hotkeyFontSize = 10,
 	hotkeytext = true,
-	hotkeyTextPosition = 'TOPRIGHT',
+	hotkeyTextPosition = "TOPRIGHT",
 	hotkeyTextXOffset = 0,
 	hotkeyTextYOffset = -3,
 	macroColor = { r = 1, g = 1, b = 1 },
 	macrotext = false,
-	macroFont = 'Homespun',
-	macroFontOutline = 'MONOCHROMEOUTLINE',
+	macroFont = "Homespun",
+	macroFontOutline = "MONOCHROMEOUTLINE",
 	macroFontSize = 10,
-	macroTextPosition = 'TOPRIGHT',
+	macroTextPosition = "TOPRIGHT",
 	macroTextXOffset = 0,
 	macroTextYOffset = -3,
 	useCountColor = false,
 	useHotkeyColor = false,
 	useMacroColor = false,
-	frameStrata = 'LOW',
+	frameStrata = "LOW",
 	frameLevel = 1,
 }
 for i = 1, 10 do
-	local barN = 'bar'..i
+	local barN = "bar" .. i
 	P.actionbar[barN] = CopyTable(AB_Bar)
 
-	P.actionbar[barN].visibility = '[vehicleui] hide; show'
+	P.actionbar[barN].visibility = "[vehicleui] hide; show"
 end
 
-for _, bar in next, {'barPet', 'stanceBar', 'vehicleExitButton'} do
+for _, bar in next, { "barPet", "stanceBar", "vehicleExitButton" } do
 	local db = P.actionbar[bar]
-	db.frameStrata = 'LOW'
+	db.frameStrata = "LOW"
 	db.frameLevel = 1
 
-	if bar == 'barPet' then
+	if bar == "barPet" then
 		db.countColor = { r = 1, g = 1, b = 1 }
-		db.countFont = 'Homespun'
-		db.countFontOutline = 'MONOCHROMEOUTLINE'
+		db.countFont = "Homespun"
+		db.countFontOutline = "MONOCHROMEOUTLINE"
 		db.countFontSize = 10
 		db.countFontXOffset = 0
 		db.countFontYOffset = 2
 		db.counttext = true
-		db.countTextPosition = 'BOTTOMRIGHT'
+		db.countTextPosition = "BOTTOMRIGHT"
 		db.useCountColor = false
 	end
 end
 
 P.actionbar.bar1.enabled = true
-P.actionbar.bar1.visibility = ''
+P.actionbar.bar1.visibility = ""
 
-P.actionbar.bar1.paging.ROGUE = '[bonusbar:1] 7; [bonusbar:2] 8;'
-P.actionbar.bar1.paging.WARLOCK = '[form:1] 7;'
-P.actionbar.bar1.paging.DRUID = '[bonusbar:1,nostealth] 7; [bonusbar:1,stealth] 8; [bonusbar:2] 10; [bonusbar:3] 9; [bonusbar:4] 10;'
-P.actionbar.bar1.paging.PRIEST = '[bonusbar:1] 7;'
-P.actionbar.bar1.paging.WARRIOR = '[bonusbar:1] 7; [bonusbar:2] 8; [bonusbar:3] 9;'
+P.actionbar.bar1.paging.ROGUE = "[bonusbar:1] 7; [bonusbar:2] 8;"
+P.actionbar.bar1.paging.WARLOCK = "[form:2] 7;"
+P.actionbar.bar1.paging.DRUID =
+	"[bonusbar:1,nostealth] 7; [bonusbar:1,stealth] 8; [bonusbar:2] 10; [bonusbar:3] 9; [bonusbar:4] 10;"
+P.actionbar.bar1.paging.PRIEST = "[bonusbar:1] 7;"
+P.actionbar.bar1.paging.WARRIOR = "[bonusbar:1] 7; [bonusbar:2] 8; [bonusbar:3] 9;"
 
 P.actionbar.bar3.enabled = true
 P.actionbar.bar3.buttons = 6
@@ -4538,7 +4605,7 @@ P.actionbar.bar3.buttonsPerRow = 6
 
 P.actionbar.bar4.enabled = true
 P.actionbar.bar4.buttonsPerRow = 1
-P.actionbar.bar4.point = 'TOPRIGHT'
+P.actionbar.bar4.point = "TOPRIGHT"
 P.actionbar.bar4.backdrop = true
 
 P.actionbar.bar5.enabled = true
@@ -4591,24 +4658,24 @@ end
 --This allows movers positions to be reset to whatever profile is being used
 E.LayoutMoverPositions = {
 	ALL = {
-		BelowMinimapContainerMover = 'TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-274',
-		BNETMover = 'TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-274',
-		ElvUF_PlayerCastbarMover = 'BOTTOM,ElvUIParent,BOTTOM,-1,95',
-		ElvUF_TargetCastbarMover = 'BOTTOM,ElvUIParent,BOTTOM,-1,243',
-		LossControlMover = 'BOTTOM,ElvUIParent,BOTTOM,-1,507',
-		MirrorTimer1Mover = 'TOP,ElvUIParent,TOP,-1,-96',
-		WatchFrameMover = 'TOPRIGHT,ElvUIParent,TOPRIGHT,-163,-325',
-		SocialMenuMover = 'TOPLEFT,ElvUIParent,TOPLEFT,4,-187',
-		VehicleSeatMover = 'TOPLEFT,ElvUIParent,TOPLEFT,4,-4',
-		DurabilityFrameMover = 'TOPLEFT,ElvUIParent,TOPLEFT,141,-4',
-		ThreatBarMover = 'BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,4',
-		PetAB = 'RIGHT,ElvUIParent,RIGHT,-4,0',
-		ShiftAB = 'BOTTOM,ElvUIParent,BOTTOM,0,58',
-		ElvUF_RaidMover = 'BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,269',
-		ElvUF_Raid40Mover = 'BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,269',
-		ElvUF_PartyMover = 'BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,269',
-		PetExperienceBarMover = 'TOPRIGHT,ElvUIParent,TOPRIGHT,-2,-251',
-		ReputationBarMover = 'TOPRIGHT,ElvUIParent,TOPRIGHT,-2,-243',
+		BelowMinimapContainerMover = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-274",
+		BNETMover = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-274",
+		ElvUF_PlayerCastbarMover = "BOTTOM,ElvUIParent,BOTTOM,-1,95",
+		ElvUF_TargetCastbarMover = "BOTTOM,ElvUIParent,BOTTOM,-1,243",
+		LossControlMover = "BOTTOM,ElvUIParent,BOTTOM,-1,507",
+		MirrorTimer1Mover = "TOP,ElvUIParent,TOP,-1,-96",
+		WatchFrameMover = "TOPRIGHT,ElvUIParent,TOPRIGHT,-163,-325",
+		SocialMenuMover = "TOPLEFT,ElvUIParent,TOPLEFT,4,-187",
+		VehicleSeatMover = "TOPLEFT,ElvUIParent,TOPLEFT,4,-4",
+		DurabilityFrameMover = "TOPLEFT,ElvUIParent,TOPLEFT,141,-4",
+		ThreatBarMover = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,4",
+		PetAB = "RIGHT,ElvUIParent,RIGHT,-4,0",
+		ShiftAB = "BOTTOM,ElvUIParent,BOTTOM,0,58",
+		ElvUF_RaidMover = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,269",
+		ElvUF_Raid40Mover = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,269",
+		ElvUF_PartyMover = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,269",
+		PetExperienceBarMover = "TOPRIGHT,ElvUIParent,TOPRIGHT,-2,-251",
+		ReputationBarMover = "TOPRIGHT,ElvUIParent,TOPRIGHT,-2,-243",
 	},
 	dpsCaster = {
 		ElvUF_PlayerCastbarMover = "BOTTOM,ElvUIParent,BOTTOM,0,243",
@@ -4619,80 +4686,80 @@ E.LayoutMoverPositions = {
 		ElvUF_TargetCastbarMover = "BOTTOM,ElvUIParent,BOTTOM,0,97",
 		ElvUF_RaidMover = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,202,373",
 		LootFrameMover = "TOPLEFT,ElvUIParent,TOPLEFT,250,-104",
-		VOICECHAT = 'TOPLEFT,ElvUIParent,TOPLEFT,250,-82'
+		VOICECHAT = "TOPLEFT,ElvUIParent,TOPLEFT,250,-82",
 	},
 	anniversary = {
-		AlertFrameMover = 'TOP,ElvUIParent,TOP,0,-95',
-		ArenaHeaderMover = 'TOPRIGHT,ElvUIParent,TOPRIGHT,-365,-252',
-		BNETMover = 'BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,279',
-		BagsMover = 'BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,17',
-		BossHeaderMover = 'TOPRIGHT,ElvUIParent,TOPRIGHT,-365,-252',
-		BuffsMover = 'TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-4',
-		DebuffsMover = 'TOPLEFT,ElvUIParent,TOPLEFT,4,-4',
-		DigSiteProgressBarMover = 'BOTTOM,ElvUIParent,BOTTOM,0,315',
-		DurabilityFrameMover = 'TOPRIGHT,ElvUIParent,TOPRIGHT,-167,-215',
-		ElvAB_1 = 'BOTTOM,ElvUIParent,BOTTOM,0,44',
-		ElvAB_2 = 'BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-522,49',
-		ElvAB_3 = 'BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,433,47',
-		ElvAB_4 = 'TOPLEFT,ElvUIParent,TOPLEFT,564,-334',
-		ElvAB_5 = 'TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-294',
-		ElvAB_6 = 'BOTTOM,ElvUIParent,BOTTOM,-271,431',
-		ElvUF_AssistMover = 'TOPLEFT,ElvUIParent,TOPLEFT,4,-260',
-		ElvUF_FocusCastbarMover = 'BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-572,357',
-		ElvUF_FocusMover = 'BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-572,369',
-		ElvUF_FocusTargetMover = 'BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-513,277',
-		ElvUF_PartyMover = 'BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,279',
-		ElvUF_PetCastbarMover = 'BOTTOM,ElvUIParent,BOTTOM,-187,113',
-		ElvUF_PetMover = 'BOTTOM,ElvUIParent,BOTTOM,-187,123',
-		ElvUF_PlayerCastbarMover = 'BOTTOM,ElvUIParent,BOTTOM,-136,176',
-		ElvUF_PlayerMover = 'BOTTOM,ElvUIParent,BOTTOM,-136,187',
-		ElvUF_RaidMover = 'BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,279',
-		ElvUF_Raid40Mover = 'TOPLEFT,ElvUIParent,TOPLEFT,192,-295',
-		ElvUF_RaidpetMover = 'TOPLEFT,ElvUIParent,BOTTOMLEFT,0,808',
-		ElvUF_TankMover = 'TOPLEFT,ElvUIParent,TOPLEFT,4,-186',
-		ElvUF_TargetCastbarMover = 'BOTTOM,ElvUIParent,BOTTOM,136,176',
-		ElvUF_TargetMover = 'BOTTOM,ElvUIParent,BOTTOM,136,187',
-		ElvUF_TargetTargetMover = 'BOTTOM,ElvUIParent,BOTTOM,187,123',
-		ElvUIBagMover = 'BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,49',
-		ElvUIBankMover = 'BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,47',
-		ExperienceBarMover = 'TOP,ElvUIParent,TOP,0,-4',
-		GMMover = 'TOP,ElvUIParent,TOP,-303,-4',
-		PetExperienceBarMover = 'BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,4',
-		LeftChatMover = 'BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,47',
-		LocationMover = 'TOP,ElvUIParent,TOP,0,-7',
-		LootFrameMover = 'TOPLEFT,ElvUIParent,TOPLEFT,487,-312',
-		LossControlMover = 'BOTTOM,ElvUIParent,BOTTOM,0,382',
-		MicroBarAnchor = 'TOP,ElvUIParent,TOP,1,-19',
-		MicrobarMover = 'BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,18',
-		MinimapClusterMover = 'BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,254',
-		MinimapMover = 'BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,49',
-		MirrorTimer1Mover = 'TOPRIGHT,ElvUIParent,TOPRIGHT,-310,-229',
-		MirrorTimer2Mover = 'TOPRIGHT,ElvUIParent,TOPRIGHT,-310,-247',
-		MirrorTimer3Mover = 'TOPRIGHT,ElvUIParent,TOPRIGHT,-310,-265',
-		NotificationMover = 'TOP,ElvUIParent,TOP,0,-96',
-		ObjectiveFrameMover = 'TOPRIGHT,ElvUIParent,TOPRIGHT,-79,-293',
-		PetAB = 'BOTTOM,ElvUIParent,BOTTOM,0,17',
-		PvPMover = 'TOP,ElvUIParent,TOP,0,-28',
-		QueueStatusMover = 'BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-201,49',
-		RaidBuffReminderMover = 'BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,353,16',
-		RaidMarkerBarAnchor = 'BOTTOM,ElvUIParent,BOTTOM,0,57',
-		ReputationBarMover = 'BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,4',
-		RequestStopButton = 'TOP,ElvUIParent,TOP,0,-161',
-		RightChatMover = 'BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-233,26',
-		ShiftAB = 'BOTTOM,ElvUIParent,BOTTOM,0,17',
-		SquareMinimapBar = 'TOPRIGHT,ElvUIParent,TOPRIGHT,-2,-185',
-		SquareMinimapButtonBarMover = 'TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-280',
-		TargetPortraitMover = 'BOTTOM,ElvUIParent,BOTTOM,365,163',
-		TargetPowerBarMover = 'BOTTOM,ElvUIParent,BOTTOM,231,215',
-		ThreatBarMover = 'BOTTOM,ElvUIParent,BOTTOM,0,4',
-		TooltipMover = 'BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,255',
-		TotemBarMover = 'BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,560,31',
-		TotemTrackerMover = 'BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,534,4',
-		UIErrorsFrameMover = 'TOP,ElvUIParent,TOP,0,-195',
-		VOICECHAT = 'TOPLEFT,ElvUIParent,TOPLEFT,487,-290',
-		VehicleLeaveButton = 'BOTTOM,ElvUIParent,BOTTOM,0,145',
-		VehicleSeatMover = 'BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-587,23',
-		WatchFrameMover = 'TOPRIGHT,ElvUIParent,TOPRIGHT,-122,-292',
-		ZoneAbility = 'BOTTOM,ElvUIParent,BOTTOM,-323,139',
-	}
+		AlertFrameMover = "TOP,ElvUIParent,TOP,0,-95",
+		ArenaHeaderMover = "TOPRIGHT,ElvUIParent,TOPRIGHT,-365,-252",
+		BNETMover = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,279",
+		BagsMover = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,17",
+		BossHeaderMover = "TOPRIGHT,ElvUIParent,TOPRIGHT,-365,-252",
+		BuffsMover = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-4",
+		DebuffsMover = "TOPLEFT,ElvUIParent,TOPLEFT,4,-4",
+		DigSiteProgressBarMover = "BOTTOM,ElvUIParent,BOTTOM,0,315",
+		DurabilityFrameMover = "TOPRIGHT,ElvUIParent,TOPRIGHT,-167,-215",
+		ElvAB_1 = "BOTTOM,ElvUIParent,BOTTOM,0,44",
+		ElvAB_2 = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-522,49",
+		ElvAB_3 = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,433,47",
+		ElvAB_4 = "TOPLEFT,ElvUIParent,TOPLEFT,564,-334",
+		ElvAB_5 = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-294",
+		ElvAB_6 = "BOTTOM,ElvUIParent,BOTTOM,-271,431",
+		ElvUF_AssistMover = "TOPLEFT,ElvUIParent,TOPLEFT,4,-260",
+		ElvUF_FocusCastbarMover = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-572,357",
+		ElvUF_FocusMover = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-572,369",
+		ElvUF_FocusTargetMover = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-513,277",
+		ElvUF_PartyMover = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,279",
+		ElvUF_PetCastbarMover = "BOTTOM,ElvUIParent,BOTTOM,-187,113",
+		ElvUF_PetMover = "BOTTOM,ElvUIParent,BOTTOM,-187,123",
+		ElvUF_PlayerCastbarMover = "BOTTOM,ElvUIParent,BOTTOM,-136,176",
+		ElvUF_PlayerMover = "BOTTOM,ElvUIParent,BOTTOM,-136,187",
+		ElvUF_RaidMover = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,279",
+		ElvUF_Raid40Mover = "TOPLEFT,ElvUIParent,TOPLEFT,192,-295",
+		ElvUF_RaidpetMover = "TOPLEFT,ElvUIParent,BOTTOMLEFT,0,808",
+		ElvUF_TankMover = "TOPLEFT,ElvUIParent,TOPLEFT,4,-186",
+		ElvUF_TargetCastbarMover = "BOTTOM,ElvUIParent,BOTTOM,136,176",
+		ElvUF_TargetMover = "BOTTOM,ElvUIParent,BOTTOM,136,187",
+		ElvUF_TargetTargetMover = "BOTTOM,ElvUIParent,BOTTOM,187,123",
+		ElvUIBagMover = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,49",
+		ElvUIBankMover = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,47",
+		ExperienceBarMover = "TOP,ElvUIParent,TOP,0,-4",
+		GMMover = "TOP,ElvUIParent,TOP,-303,-4",
+		PetExperienceBarMover = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,4",
+		LeftChatMover = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,47",
+		LocationMover = "TOP,ElvUIParent,TOP,0,-7",
+		LootFrameMover = "TOPLEFT,ElvUIParent,TOPLEFT,487,-312",
+		LossControlMover = "BOTTOM,ElvUIParent,BOTTOM,0,382",
+		MicroBarAnchor = "TOP,ElvUIParent,TOP,1,-19",
+		MicrobarMover = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,18",
+		MinimapClusterMover = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,254",
+		MinimapMover = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,49",
+		MirrorTimer1Mover = "TOPRIGHT,ElvUIParent,TOPRIGHT,-310,-229",
+		MirrorTimer2Mover = "TOPRIGHT,ElvUIParent,TOPRIGHT,-310,-247",
+		MirrorTimer3Mover = "TOPRIGHT,ElvUIParent,TOPRIGHT,-310,-265",
+		NotificationMover = "TOP,ElvUIParent,TOP,0,-96",
+		ObjectiveFrameMover = "TOPRIGHT,ElvUIParent,TOPRIGHT,-79,-293",
+		PetAB = "BOTTOM,ElvUIParent,BOTTOM,0,17",
+		PvPMover = "TOP,ElvUIParent,TOP,0,-28",
+		QueueStatusMover = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-201,49",
+		RaidBuffReminderMover = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,353,16",
+		RaidMarkerBarAnchor = "BOTTOM,ElvUIParent,BOTTOM,0,57",
+		ReputationBarMover = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,4",
+		RequestStopButton = "TOP,ElvUIParent,TOP,0,-161",
+		RightChatMover = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-233,26",
+		ShiftAB = "BOTTOM,ElvUIParent,BOTTOM,0,17",
+		SquareMinimapBar = "TOPRIGHT,ElvUIParent,TOPRIGHT,-2,-185",
+		SquareMinimapButtonBarMover = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-280",
+		TargetPortraitMover = "BOTTOM,ElvUIParent,BOTTOM,365,163",
+		TargetPowerBarMover = "BOTTOM,ElvUIParent,BOTTOM,231,215",
+		ThreatBarMover = "BOTTOM,ElvUIParent,BOTTOM,0,4",
+		TooltipMover = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,255",
+		TotemBarMover = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,560,31",
+		TotemTrackerMover = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,534,4",
+		UIErrorsFrameMover = "TOP,ElvUIParent,TOP,0,-195",
+		VOICECHAT = "TOPLEFT,ElvUIParent,TOPLEFT,487,-290",
+		VehicleLeaveButton = "BOTTOM,ElvUIParent,BOTTOM,0,145",
+		VehicleSeatMover = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-587,23",
+		WatchFrameMover = "TOPRIGHT,ElvUIParent,TOPRIGHT,-122,-292",
+		ZoneAbility = "BOTTOM,ElvUIParent,BOTTOM,-323,139",
+	},
 }

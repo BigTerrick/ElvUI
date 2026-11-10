@@ -39,7 +39,7 @@ V.general = {
 
 V.bags = {
 	enable = true,
-	bagBar = false
+	bagBar = false,
 }
 
 V.nameplates = {
@@ -54,11 +54,11 @@ V.auras = {
 	masque = {
 		buffs = false,
 		debuffs = false,
-	}
+	},
 }
 
 V.chat = {
-	enable = true
+	enable = true,
 }
 
 V.skins = {
@@ -98,6 +98,7 @@ V.skins = {
 		lfd = true,
 		lfr = true,
 		loot = true,
+		lootRoll = true,
 		macro = true,
 		mail = true,
 		merchant = true,
@@ -124,7 +125,7 @@ V.skins = {
 		worldmap = true,
 		arenaRegistrar = true,
 		tutorials = true,
-	}
+	},
 }
 
 V.tooltip = {
@@ -140,7 +141,7 @@ V.unitframe = {
 		boss = true,
 		arena = true,
 		party = true,
-	}
+	},
 }
 
 V.actionbar = {
@@ -149,9 +150,9 @@ V.actionbar = {
 		actionbars = false,
 		petBar = false,
 		stanceBar = false,
-	}
+	},
 }
 
 V.worldmap = {
-	enable = true
+	enable = true,
 }

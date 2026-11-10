@@ -1151,8 +1151,13 @@ function Generic:SetKey(key)
 end
 
 local function clearBindings(binding)
-	while GetBindingKey(binding) do
-		SetBinding(GetBindingKey(binding), nil)
+	local key = GetBindingKey(binding)
+	while key do
+		SetBinding(key, nil)
+
+		local nextKey = GetBindingKey(binding)
+		if nextKey == key then break end -- SetBinding can no-op (combat lockdown); bail instead of freezing
+		key = nextKey
 	end
 end
 
@@ -1462,6 +1467,15 @@ function UpdateHotkeys(self)
 	end
 end
 
+local function GetSpellIdByName(spellName)
+	if not spellName then return end
+	local spellLink = GetSpellLink(spellName)
+	if spellLink then
+		return tonumber(spellLink:match("spell:(%d+)"))
+	end
+	return nil
+end
+
 -----------------------------------------------------------
 --- WoW API mapping
 --- Generic Button
@@ -1507,15 +1521,11 @@ Action.IsUnitInRange           = function(self, unit) return IsActionInRange(sel
 Action.SetTooltip              = function(self) return GameTooltip:SetAction(self._state_action) end
 Action.GetSpellId              = function(self)
 	if self._state_type == "action" then
-		local actionType, id, subType = GetActionInfo(self._state_action)
+		local actionType, id, _, globalID = GetActionInfo(self._state_action)
 		if actionType == "spell" then
-			return id
+			return globalID
 		elseif actionType == "macro" then
-			if subType == "spell" then
-				return id
-			else
-				return (GetMacroSpell(id))
-			end
+			return GetSpellIdByName(GetMacroSpell(id))
 		end
 	end
 end
